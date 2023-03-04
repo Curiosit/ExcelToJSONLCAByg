@@ -4,16 +4,16 @@
             "Building": {
                 "id": "6d766aa5-50aa-4005-ab35-29f2fb82ddad",
                 "name": {
-                    "Danish": "23.xxx Udvidelse af Gaarden, Silkeborg",
-                    "English": "23.xxx Udvidelse af Gaarden, Silkeborg"
+                    "Danish": "Building file created via JsonLCABygExporter",
+                    "English": "Building file created via JsonLCABygExporter"
                 },
-                "address": "Gaarden",
+                "address": "XXX",
                 "owner": "",
                 "description": "Import from Excel",
                 "building_type": "Other",
-                "heated_floor_area": 1100,
-                "gross_area": 15000,
-                "gross_area_above_ground": 1250,
+                "heated_floor_area": 10108,
+                "gross_area": 9239,
+                "gross_area_above_ground": 9239,
                 "storeys_above_ground": 1,
                 "storeys_below_ground": 0,
                 "storey_height": 3,
@@ -22,8 +22,8 @@
                 "calculation_mode": "SC",
                 "lca_advisor": "Bjerg Arkitektur",
                 "building_regulation_version": "BR2018",
-                "plot_area": 1250,
-                "outside_area": 8000,
+                "plot_area": 1000,
+                "outside_area": 0,
                 "energy_class": "LowEnergy"
             }
         }
