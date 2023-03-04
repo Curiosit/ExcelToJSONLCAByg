@@ -18,7 +18,7 @@
     {
         "Node": {
             "Element": {
-                "id": "20920409-c908-477b-bbd8-2cd2e688bf6c",
+                "id": "2deda828-166b-4470-be20-f5a773f49e91",
                 "name": {
                     "Danish": "13. TERR\u00c6ND\u00c6K",
                     "English": "",
@@ -34,7 +34,7 @@
     {
         "Node": {
             "Element": {
-                "id": "06ea5f35-1c71-4d10-b46b-e3869fe03e52",
+                "id": "a8aa98f4-6ba8-447b-8531-a38b4d358475",
                 "name": {
                     "Danish": "21. YDERV\u00c6GGE",
                     "English": "",
@@ -51,32 +51,32 @@
         "Edge": [
             {
                 "ElementToConstruction": {
-                    "id": "7a2d1c05-8624-4bbc-8634-e4f29b454025",
-                    "amount": 15,
+                    "id": "20bc515c-9480-4492-9baa-1a80c9fff9b9",
+                    "amount": 231789,
                     "enabled": true
                 }
             },
-            "06ea5f35-1c71-4d10-b46b-e3869fe03e52",
-            "bf11c146-3b67-4d11-bc5f-b03069512ed5"
+            "a8aa98f4-6ba8-447b-8531-a38b4d358475",
+            "d528f141-de5e-43c6-9e59-07d6a6f0fe86"
         ]
     },
     {
         "Edge": [
             {
                 "ElementToConstruction": {
-                    "id": "9df0b169-2c1a-458c-90bb-91f6384e0dd4",
+                    "id": "4182cbd2-1b55-48e1-a349-6251ea6474c5",
                     "amount": 25,
                     "enabled": true
                 }
             },
-            "06ea5f35-1c71-4d10-b46b-e3869fe03e52",
-            "3bae5a00-d6d6-4668-abbf-98fbf8386d3b"
+            "a8aa98f4-6ba8-447b-8531-a38b4d358475",
+            "c4c978bd-dd03-4410-8837-f9f5020bc7ba"
         ]
     },
     {
         "Node": {
             "Element": {
-                "id": "5609a027-310e-463b-ab31-558122bdbca9",
+                "id": "c12d2830-f8f8-4eca-ad9e-27584c4d0425",
                 "name": {
                     "Danish": "22. INDERV\u00c6GGE",
                     "English": "",
@@ -92,7 +92,7 @@
     {
         "Node": {
             "Element": {
-                "id": "a768ccec-74ba-4f1c-ba08-09625877f379",
+                "id": "7cc3b392-760f-49f9-a649-975c85b0cc4b",
                 "name": {
                     "Danish": "23. ETAGED\u00c6K",
                     "English": "",
@@ -108,7 +108,7 @@
     {
         "Node": {
             "Element": {
-                "id": "18307562-140e-40e1-9797-a01cf74d0d72",
+                "id": "f0e24e08-d3d0-4e7a-a38b-37b9df75555f",
                 "name": {
                     "Danish": "27. TAGE",
                     "English": "",
@@ -124,7 +124,7 @@
     {
         "Node": {
             "Element": {
-                "id": "8cb1341e-dbd0-4226-858e-6ebeb380f39a",
+                "id": "22fab3aa-d9fb-4297-88f4-ddf59728140c",
                 "name": {
                     "Danish": "31. YDERV\u00c6GGE, KOMPLETTERING",
                     "English": "",
@@ -140,7 +140,7 @@
     {
         "Node": {
             "Element": {
-                "id": "443d4d89-6348-4908-8d81-d76215e15c67",
+                "id": "4092bb5c-30f4-4318-a2e4-f4263346cdc9",
                 "name": {
                     "Danish": "43. GULVE",
                     "English": "",
@@ -156,7 +156,7 @@
     {
         "Node": {
             "Element": {
-                "id": "f4ae11b5-f6ee-4ddf-bf84-11dc09187137",
+                "id": "76909908-e609-45da-bfae-793d5e132dec",
                 "name": {
                     "Danish": "45. LOFTER",
                     "English": "",
