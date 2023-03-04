@@ -1,0 +1,266 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "02c3e303-a443-4f02-9927-e43519227ade",
+        "name": {
+          "Danish": "12. FUNDAMENTER",
+          "English": "",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "9d64d06c-15ed-4265-a15e-2d93b42b7022",
+        "name": {
+          "English": "",
+          "Danish": "43. GULVE",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "c55e4450-e5e3-4908-921c-d284358a409d",
+        "name": {
+          "English": "",
+          "German": "",
+          "Danish": "27. TAGE"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "cb691bea-2cec-4960-9aa6-0ba9094224b4",
+        "name": {
+          "Danish": "13. TERRÆNDÆK",
+          "German": "",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "c1d90f31-3503-434a-9159-c871df75dfd5",
+        "name": {
+          "English": "",
+          "German": "",
+          "Danish": "45. LOFTER"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "6ef2b06f-852f-4083-b8ad-d9cd82550220",
+        "name": {
+          "German": "",
+          "English": "",
+          "Danish": "22. INDERVÆGGE"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "20c8ee15-56e6-4482-af8b-605f1dcc0174",
+        "name": {
+          "English": "",
+          "Danish": "23. ETAGEDÆK",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+        "name": {
+          "German": "",
+          "Danish": "21. YDERVÆGGE",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "f2fd999d-125a-461c-baea-7dcc9fa84e1a",
+        "name": {
+          "German": "",
+          "Danish": "31. YDERVÆGGE, KOMPLETTERING",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "1616d3bc-42ea-4b5d-9ac8-95f2a31844b9",
+          "amount": 603.01,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "77e2aee8-85fe-4d69-8dd3-3fed0637ae63"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8b86333d-9237-4f17-9053-bb8834f6eae3",
+          "amount": 2368.729999999999,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "798df5b1-8685-4edf-a4fc-b355147a004c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "183583d6-b2b9-4580-b44c-00653fbf9407",
+          "amount": 1.56,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "905e985b-09ec-42c5-b2f3-4109bacc02d0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c062869f-95d1-44f0-9236-14639cbc8d36",
+          "amount": 138.45,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "9f40bbf3-e9e4-449e-a657-a6c85014e474"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "bf9a1672-ce79-4c3f-b081-58fe7fe18010",
+          "amount": 412.1900000000002,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "3f7c7e42-50e1-4421-b978-83d5e07c083f"
+    ]
+  }
+]

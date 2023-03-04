@@ -1,0 +1,1602 @@
+[
+  {
+    "Node": {
+      "Project": {
+        "id": "e9e6e798-390e-4419-a1fa-3b46a8ba5b8d",
+        "name": {
+          "Danish": "IfcJsonLcabygParser import from IFC example"
+        },
+        "address": "https://github.com/Curiosit/IfcJsonLcabygParser",
+        "owner": "",
+        "lca_advisor": "Bjerg Arkitektur",
+        "building_regulation_version": "11.10.2022"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "MainBuilding": "15867192-86b7-40a8-9936-83d9e998516d"
+      },
+      "e9e6e798-390e-4419-a1fa-3b46a8ba5b8d",
+      "6d766aa5-50aa-4005-ab35-29f2fb82ddad"
+    ]
+  },
+  {
+    "Node": {
+      "Building": {
+        "id": "6d766aa5-50aa-4005-ab35-29f2fb82ddad",
+        "scenario_name": "Original bygningsmodel",
+        "locked": "Unlocked",
+        "description": {
+          "German": "Import from Excel",
+          "Norwegian": "Import from Excel",
+          "English": "Import from Excel",
+          "Danish": "Import from Excel"
+        },
+        "building_type": "Office",
+        "heated_floor_area": 1100.0,
+        "gross_area": 15000.0,
+        "integrated_garage": 0.0,
+        "external_area": 0.0,
+        "gross_area_above_ground": 1250.0,
+        "person_count": 0,
+        "storeys_above_ground": 1,
+        "storeys_below_ground": 0,
+        "storey_height": 3.0,
+        "initial_year": 2022,
+        "calculation_timespan": 50,
+        "calculation_mode": "SC",
+        "outside_area": 8000.0,
+        "plot_area": 1250.0,
+        "energy_class": "LowEnergy"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "BuildingToOperation": "0c35b94d-b8a0-4bec-92f3-3463acc94064"
+      },
+      "6d766aa5-50aa-4005-ab35-29f2fb82ddad",
+      "0338d31e-3876-440d-a88c-2daa2dd81942"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "BuildingToDGNBOperation": "fae2098b-ec9e-4bb8-bb4e-c05a9b18e5a7"
+      },
+      "6d766aa5-50aa-4005-ab35-29f2fb82ddad",
+      "024bff0f-a028-421a-9a83-8ee552742349"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "BuildingToRoot": "bc35b94d-b8c0-4b8c-9bf3-3f63acc94063"
+      },
+      "6d766aa5-50aa-4005-ab35-29f2fb82ddad",
+      "216cf5d6-3e9d-43ec-b0d8-5aee02240c28"
+    ]
+  },
+  {
+    "Node": {
+      "Operation": {
+        "id": "0338d31e-3876-440d-a88c-2daa2dd81942",
+        "electricity_usage": 10.0,
+        "heat_usage": 15.0,
+        "electricity_production": 0.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "HeatingSource": "0c205f71-07f2-414b-a705-1715660123c0"
+      },
+      "0338d31e-3876-440d-a88c-2daa2dd81942",
+      "e967c8e7-e73d-47f3-8cba-19569ad76b4d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElectricitySource": "af579fc8-0cad-40df-a3a4-ca36966aab9c"
+      },
+      "0338d31e-3876-440d-a88c-2daa2dd81942",
+      "e967c8e7-e73d-47f3-8cba-19569ad76b4d"
+    ]
+  },
+  {
+    "Node": {
+      "DGNBOperationReference": {
+        "id": "024bff0f-a028-421a-9a83-8ee552742349",
+        "heat_supplement": 0.0,
+        "electricity_supplement": 0.0
+      }
+    }
+  },
+  {
+    "Node": {
+      "EmbodiedRoot": {
+        "id": "216cf5d6-3e9d-43ec-b0d8-5aee02240c28"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "RootToModel": "1191a67b-c672-43fc-b2b7-724bc62b974a"
+      },
+      "216cf5d6-3e9d-43ec-b0d8-5aee02240c28",
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "RootToConstructionProcess": "48781119-3992-4e48-9099-e8e8654a4935"
+      },
+      "216cf5d6-3e9d-43ec-b0d8-5aee02240c28",
+      "349738da-9747-4d5c-b508-2a810317166f"
+    ]
+  },
+  {
+    "Node": {
+      "ElementModel": {
+        "id": "aeefab8a-e825-4d14-b0c3-e87b7759e5b2"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "b879ae4c-15d5-4f6a-91e1-4b575702436b"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "bae7f4b9-967c-4542-bc99-f744aa261424"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "7911defb-6013-4cd7-ae97-ed870ed7cb47"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "9e7adf74-5281-4aa4-9cff-d903a4266aae"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "e009ab41-7be2-40ce-aafe-78b2cc86fb47"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "e5937376-1d7f-4edf-9710-cafd7fe91606"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "af67e91b-9651-46e2-9abe-caaa46b6ea0f"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "de3a2393-388c-4079-9e7d-6529c14f8a69"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "49bb8f71-6d02-48bf-986d-3fa6db9e9b92"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "0ae65810-51bc-4130-89a0-9c107f1aca3f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "4640fd41-1a2c-4bb9-bd0a-7d1cd85b102e"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "20c75334-735c-442f-a541-985ac5a130c8"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "0efa66cb-2308-4e75-8d38-34c9b130af78"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "3cb417d3-d615-402e-81dc-d7d587e83ac1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "b576344e-eccf-4735-94f3-23ce5a6e2d0c"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "f7737ac7-ea51-488e-81de-9c1bab1c08bf"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "25b12d48-dbd3-4851-aa40-306a099d45f1"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "dad100a3-f570-4c96-bec0-9028bc5f6835"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "a2320d34-9ef5-42c3-a9ca-6e48303e7656"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "1e853d01-fce5-4947-850d-e0b43e51b1fc"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "4fa14d2c-f70f-4cd5-b1c6-c303821aa2a6"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "d50ad0a5-636a-4169-b4d7-21e9b64d94a8"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "708fa945-e639-43f5-90dc-2d9719963254"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "6808ac7b-2a79-45a6-8013-5f89ad13c337"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "badc823a-c90b-4ef9-890c-34690bb410eb"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "ac7112e7-ccea-4e1b-a6a2-9c9c3b9a7177"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "4ff922e8-982f-436e-a3b7-efecb987c5a6"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "ca17092d-2a42-4941-b478-669b12001556"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "1cf888c3-deb9-42d0-a702-1cc1818e5dc1"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "571650a7-4259-4cc1-9d56-a12e516fd495"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "6d2c715d-847c-4866-9bd7-a2b8defdf6a7"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "487184b7-5568-497b-b7e2-e8d2269e51ef"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ParentTo": "0e59acae-729c-4bc5-bea8-5b4b2abba72a"
+      },
+      "aeefab8a-e825-4d14-b0c3-e87b7759e5b2",
+      "a1746ce9-3d06-424c-a701-34a090f08433"
+    ]
+  },
+  {
+    "Node": {
+      "ConstructionProcess": {
+        "id": "349738da-9747-4d5c-b508-2a810317166f"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ProcessToInstallation": "dd928199-b70a-43f8-8556-4f740dccd1ef"
+      },
+      "349738da-9747-4d5c-b508-2a810317166f",
+      "020cc362-536b-484e-b8f9-6507b40ab675"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProcessToTransport": "15867192-86b7-40a8-9936-83d9e998516e"
+      },
+      "349738da-9747-4d5c-b508-2a810317166f",
+      "915c5162-93bc-49c0-bdaf-9f470b4c7998"
+    ]
+  },
+  {
+    "Node": {
+      "ConstructionInstallation": {
+        "id": "020cc362-536b-484e-b8f9-6507b40ab675"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "FuelUsage": "f069389f-b870-4c63-9362-88dc8c9912c9"
+      },
+      "020cc362-536b-484e-b8f9-6507b40ab675",
+      "5e5ccea5-5243-494b-9a49-292ada027abe"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "InstallationOperation": "082b809c-9850-4a72-8dbb-7ec74d0fec15"
+      },
+      "020cc362-536b-484e-b8f9-6507b40ab675",
+      "c33cf608-9ceb-47f3-9ccf-c3ecb58ddb96"
+    ]
+  },
+  {
+    "Node": {
+      "ProductTransportRoot": {
+        "id": "915c5162-93bc-49c0-bdaf-9f470b4c7998"
+      }
+    }
+  },
+  {
+    "Node": {
+      "FuelConsumption": {
+        "id": "5e5ccea5-5243-494b-9a49-292ada027abe"
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "TransportTypeUsage": {
+          "id": "899c9a7c-b616-49ac-8937-088ac10b2537",
+          "distance": 0.0
+        }
+      },
+      "5e5ccea5-5243-494b-9a49-292ada027abe",
+      "1adea09d-d954-4b9f-9a95-fa3cee0c4787"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "TransportTypeUsage": {
+          "id": "59292514-bf7b-4c89-a816-fe528cb07530",
+          "distance": 0.0
+        }
+      },
+      "5e5ccea5-5243-494b-9a49-292ada027abe",
+      "b0ca9d35-fdfe-4e29-8d65-1032bf5a220a"
+    ]
+  },
+  {
+    "Node": {
+      "Operation": {
+        "id": "c33cf608-9ceb-47f3-9ccf-c3ecb58ddb96",
+        "electricity_usage": 0.0,
+        "heat_usage": 0.0,
+        "electricity_production": 0.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "HeatingSource": "bc993de0-e1e9-4f7d-aca3-26f97d6c8b98"
+      },
+      "c33cf608-9ceb-47f3-9ccf-c3ecb58ddb96",
+      "e967c8e7-e73d-47f3-8cba-19569ad76b4d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElectricitySource": "6316427b-8643-4d0c-8edc-086aa1438f51"
+      },
+      "c33cf608-9ceb-47f3-9ccf-c3ecb58ddb96",
+      "e967c8e7-e73d-47f3-8cba-19569ad76b4d"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "02c3e303-a443-4f02-9927-e43519227ade",
+        "name": {
+          "Danish": "12. FUNDAMENTER",
+          "English": "",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "f27f6d5b-1d6f-48e6-a7b1-214a3b387156"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "02c3e303-a443-4f02-9927-e43519227ade"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "9d64d06c-15ed-4265-a15e-2d93b42b7022",
+        "name": {
+          "English": "",
+          "Danish": "43. GULVE",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "b8c687df-cdb9-4e94-bc7c-fd403d07739a"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "9d64d06c-15ed-4265-a15e-2d93b42b7022"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "c55e4450-e5e3-4908-921c-d284358a409d",
+        "name": {
+          "English": "",
+          "German": "",
+          "Danish": "27. TAGE"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "740cfdd7-c129-4a65-9d82-dc5ec5585809"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "c55e4450-e5e3-4908-921c-d284358a409d"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "798df5b1-8685-4edf-a4fc-b355147a004c",
+        "name": {
+          "Danish": "(21)2 - Ydervæg",
+          "English": "Test construction"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "b6c8af79-823a-49fd-acfe-f8bb09f07bf1",
+          "amount": 2.5,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "798df5b1-8685-4edf-a4fc-b355147a004c",
+      "76512542-a104-4733-9f37-884d4083cbb1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "04001a59-05e7-4a3d-80aa-f28a510850be",
+          "amount": 1.0,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "798df5b1-8685-4edf-a4fc-b355147a004c",
+      "060433ef-da27-42e8-913a-f0a53ea669c5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "1c661c56-deeb-429b-94ba-bc1d98be2f11",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "798df5b1-8685-4edf-a4fc-b355147a004c"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+        "name": {
+          "English": "Test construction",
+          "Danish": "(21)3 - Kvist ydervægge"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "5e863327-8473-4be2-b43d-f697e1e70c69",
+          "amount": 2.0,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+      "0580737a-4123-4707-a6ec-29e793ef4d21"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "91802fdc-d9e6-4566-a65a-5f1f1bcfc9ac",
+          "amount": 2.5,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+      "76512542-a104-4733-9f37-884d4083cbb1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "d8a232a5-6be2-4998-9704-327cec594c32",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "3f7c7e42-50e1-4421-b978-83d5e07c083f"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+        "name": {
+          "English": "Test construction",
+          "Danish": "(21)2 - Ydervæg 2"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "56b254d7-0dc3-4901-b9b2-1a33c63ab70e",
+          "amount": 1.0,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+      "060433ef-da27-42e8-913a-f0a53ea669c5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "e745ac53-ffba-4013-8ba1-55bc4a8c0a7b",
+          "amount": 2.5,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+      "76512542-a104-4733-9f37-884d4083cbb1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "8b23ba8d-d4fd-41da-9e75-63e94ad48cb3",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "9f40bbf3-e9e4-449e-a657-a6c85014e474"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+        "name": {
+          "English": "Test construction",
+          "Danish": "(21)3 - Kvist ydervægge 2"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "020f69f0-e2bc-4835-a644-c1bc3323c5e8",
+          "amount": 2.5,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+      "76512542-a104-4733-9f37-884d4083cbb1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "ebef47d3-73a3-4869-a2d1-1c82da1022fe",
+          "amount": 1.0,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+      "060433ef-da27-42e8-913a-f0a53ea669c5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "173bbe37-2253-475d-998c-09fcf631cf60",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "905e985b-09ec-42c5-b2f3-4109bacc02d0"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "cb691bea-2cec-4960-9aa6-0ba9094224b4",
+        "name": {
+          "Danish": "13. TERRÆNDÆK",
+          "German": "",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "4ac63149-8efe-4cf4-8d2d-1ceff4d59ee4"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "cb691bea-2cec-4960-9aa6-0ba9094224b4"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+        "name": {
+          "Danish": "(21)1 - Ydervæg, Kælder",
+          "English": "Test construction"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "d50680c2-2e9b-4a14-80d2-5d5428c23f29",
+          "amount": 1.5,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+      "76512542-a104-4733-9f37-884d4083cbb1"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "e48b31f1-c62b-465b-9913-f24eb81cc868",
+          "amount": 1.0,
+          "unit": "M3",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+      "060433ef-da27-42e8-913a-f0a53ea669c5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "5e84faea-ca2d-4508-8d38-eab58837cda2",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "77e2aee8-85fe-4d69-8dd3-3fed0637ae63"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "c1d90f31-3503-434a-9159-c871df75dfd5",
+        "name": {
+          "English": "",
+          "German": "",
+          "Danish": "45. LOFTER"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "e7078c4b-d829-41fe-a460-99af2dac18bc"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "c1d90f31-3503-434a-9159-c871df75dfd5"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "6ef2b06f-852f-4083-b8ad-d9cd82550220",
+        "name": {
+          "German": "",
+          "English": "",
+          "Danish": "22. INDERVÆGGE"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "6de2f9bc-f4a9-421b-8c6c-010b293e7330"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "6ef2b06f-852f-4083-b8ad-d9cd82550220"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "20c8ee15-56e6-4482-af8b-605f1dcc0174",
+        "name": {
+          "English": "",
+          "Danish": "23. ETAGEDÆK",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "c68fbc2c-d7a6-40c4-9f9a-9e9883e6477d"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "20c8ee15-56e6-4482-af8b-605f1dcc0174"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+        "name": {
+          "German": "",
+          "Danish": "21. YDERVÆGGE",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "1616d3bc-42ea-4b5d-9ac8-95f2a31844b9",
+          "amount": 603.01,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "77e2aee8-85fe-4d69-8dd3-3fed0637ae63"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8b86333d-9237-4f17-9053-bb8834f6eae3",
+          "amount": 2368.729999999999,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "798df5b1-8685-4edf-a4fc-b355147a004c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "183583d6-b2b9-4580-b44c-00653fbf9407",
+          "amount": 1.56,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "905e985b-09ec-42c5-b2f3-4109bacc02d0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c062869f-95d1-44f0-9236-14639cbc8d36",
+          "amount": 138.45,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "9f40bbf3-e9e4-449e-a657-a6c85014e474"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "bf9a1672-ce79-4c3f-b081-58fe7fe18010",
+          "amount": 412.1900000000002,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c",
+      "3f7c7e42-50e1-4421-b978-83d5e07c083f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "8d8d7ca6-50a9-4229-9f80-703ef78c4784"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "fc2791b8-b422-46c8-a89c-dd4bf3983b0c"
+    ]
+  },
+  {
+    "Node": {
+      "Element": {
+        "id": "f2fd999d-125a-461c-baea-7dcc9fa84e1a",
+        "name": {
+          "German": "",
+          "Danish": "31. YDERVÆGGE, KOMPLETTERING",
+          "English": ""
+        },
+        "source": "User",
+        "comment": {
+          "German": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Norwegian": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "Danish": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+          "English": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "9a24016d-6dfc-4218-8926-73782f776ff9"
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "f2fd999d-125a-461c-baea-7dcc9fa84e1a"
+    ]
+  },
+  {
+    "Node": {
+      "Product": {
+        "id": "76512542-a104-4733-9f37-884d4083cbb1",
+        "name": {
+          "English": "Mineraluld, facadesystem",
+          "Danish": "Mineraluld, facadesystem"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "German": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "English": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "7873b218-a9cd-447d-9253-37817d215f33",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "5be1abed-e4f4-559a-9bd5-398274d27f02"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "b2fa8be2-bf2c-428b-a6ab-dd97095be5c9",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "1a4f2437-97bd-5135-b2ea-25a50de8729d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "376c5d39-f91a-4619-8ca1-329d7ba1ed72",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "352ffa4c-e49e-502a-875f-0f52097d829b"
+    ]
+  },
+  {
+    "Node": {
+      "Product": {
+        "id": "060433ef-da27-42e8-913a-f0a53ea669c5",
+        "name": {
+          "Danish": "NO INFO / Beton C25/30, fabriksbeton og betonelementer",
+          "English": "NO INFO / Beton C25/30, fabriksbeton og betonelementer"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "English": "Material created from Excel Import ",
+          "German": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "c4efa8ee-f615-41a5-b8ef-f61129d17688",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "b03e30e3-86af-4a7b-8f39-284e229c9e67"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "659ca642-9dad-4376-8949-bcc5c068a14e",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "bfc419af-714f-4a9c-b0b0-9c7d559ce7c3"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "8ae754bb-ae11-4aad-a9a6-b53a9301d9a9",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "006a3038-7982-47b1-b3fe-422e74d793ed"
+    ]
+  },
+  {
+    "Node": {
+      "Product": {
+        "id": "0580737a-4123-4707-a6ec-29e793ef4d21",
+        "name": {
+          "Danish": "Kalksandsten",
+          "English": "Kalksandsten"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "German": "Material created from Excel Import ",
+          "English": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "7afe5a4a-bbbf-4a6a-9da2-35cd8c0f86ff",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "d34255bf-28c0-4755-936e-0f06c8852628",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "f78b6a77-ed6d-4e54-af29-0b33a4f068d4",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+    ]
+  },
+  {
+    "Secret": [
+      104,
+      25,
+      202,
+      130,
+      227,
+      166,
+      130,
+      145,
+      24,
+      166,
+      142,
+      251,
+      160,
+      207,
+      54,
+      179,
+      146,
+      30,
+      188,
+      108,
+      165,
+      104,
+      115,
+      102,
+      102,
+      95,
+      116,
+      121,
+      112,
+      101,
+      161,
+      98,
+      69,
+      49,
+      130,
+      88,
+      24,
+      38,
+      138,
+      98,
+      42,
+      36,
+      205,
+      160,
+      163,
+      155,
+      144,
+      58,
+      111,
+      88,
+      192,
+      206,
+      241,
+      92,
+      71,
+      185,
+      91,
+      152,
+      89,
+      179,
+      91,
+      88,
+      24,
+      187,
+      98,
+      167,
+      84,
+      40,
+      7,
+      8,
+      166,
+      21,
+      95,
+      13,
+      227,
+      195,
+      83,
+      134,
+      118,
+      203,
+      173,
+      153,
+      71,
+      30,
+      242,
+      114,
+      152,
+      106,
+      112,
+      114,
+      111,
+      100,
+      117,
+      99,
+      116,
+      95,
+      105,
+      100,
+      80,
+      214,
+      13,
+      28,
+      80,
+      106,
+      184,
+      71,
+      140,
+      158,
+      194,
+      223,
+      62,
+      145,
+      30,
+      117,
+      104,
+      111,
+      112,
+      114,
+      111,
+      100,
+      117,
+      99,
+      116,
+      95,
+      118,
+      101,
+      114,
+      115,
+      105,
+      111,
+      110,
+      106,
+      54,
+      46,
+      50,
+      46,
+      48,
+      43,
+      98,
+      114,
+      50,
+      51,
+      104,
+      109,
+      101,
+      116,
+      97,
+      100,
+      97,
+      116,
+      97,
+      152,
+      38,
+      24,
+      223,
+      24,
+      35,
+      24,
+      151,
+      24,
+      103,
+      13,
+      24,
+      118,
+      14,
+      24,
+      33,
+      24,
+      185,
+      24,
+      31,
+      24,
+      101,
+      24,
+      57,
+      24,
+      163,
+      24,
+      178,
+      24,
+      239,
+      24,
+      172,
+      24,
+      255,
+      24,
+      57,
+      24,
+      49,
+      24,
+      232,
+      24,
+      99,
+      24,
+      161,
+      24,
+      97,
+      24,
+      71,
+      24,
+      155,
+      24,
+      175,
+      24,
+      143,
+      1,
+      2,
+      24,
+      184,
+      24,
+      53,
+      24,
+      135,
+      24,
+      105,
+      6,
+      24,
+      64,
+      24,
+      131,
+      23,
+      24,
+      90,
+      103,
+      112,
+      97,
+      121,
+      108,
+      111,
+      97,
+      100,
+      152,
+      29,
+      24,
+      74,
+      24,
+      155,
+      24,
+      167,
+      24,
+      208,
+      8,
+      24,
+      107,
+      24,
+      143,
+      24,
+      70,
+      24,
+      82,
+      24,
+      40,
+      24,
+      114,
+      24,
+      89,
+      24,
+      84,
+      24,
+      196,
+      24,
+      211,
+      24,
+      250,
+      24,
+      98,
+      24,
+      82,
+      24,
+      210,
+      24,
+      170,
+      24,
+      81,
+      24,
+      95,
+      24,
+      111,
+      24,
+      95,
+      24,
+      217,
+      24,
+      27,
+      24,
+      205,
+      24,
+      175,
+      24,
+      226
+    ]
+  }
+]

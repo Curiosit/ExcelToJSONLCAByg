@@ -1,0 +1,176 @@
+[
+  {
+    "Node": {
+      "Product": {
+        "id": "76512542-a104-4733-9f37-884d4083cbb1",
+        "name": {
+          "English": "Mineraluld, facadesystem",
+          "Danish": "Mineraluld, facadesystem"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "German": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "English": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Node": {
+      "Product": {
+        "id": "060433ef-da27-42e8-913a-f0a53ea669c5",
+        "name": {
+          "Danish": "NO INFO / Beton C25/30, fabriksbeton og betonelementer",
+          "English": "NO INFO / Beton C25/30, fabriksbeton og betonelementer"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "English": "Material created from Excel Import ",
+          "German": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Node": {
+      "Product": {
+        "id": "0580737a-4123-4707-a6ec-29e793ef4d21",
+        "name": {
+          "Danish": "Kalksandsten",
+          "English": "Kalksandsten"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "Material created from Excel Import ",
+          "Danish": "Material created from Excel Import ",
+          "German": "Material created from Excel Import ",
+          "English": "Material created from Excel Import "
+        },
+        "uncertainty_factor": 1.0
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "7873b218-a9cd-447d-9253-37817d215f33",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "5be1abed-e4f4-559a-9bd5-398274d27f02"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "b2fa8be2-bf2c-428b-a6ab-dd97095be5c9",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "1a4f2437-97bd-5135-b2ea-25a50de8729d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "376c5d39-f91a-4619-8ca1-329d7ba1ed72",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "76512542-a104-4733-9f37-884d4083cbb1",
+      "352ffa4c-e49e-502a-875f-0f52097d829b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "c4efa8ee-f615-41a5-b8ef-f61129d17688",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "b03e30e3-86af-4a7b-8f39-284e229c9e67"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "659ca642-9dad-4376-8949-bcc5c068a14e",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "bfc419af-714f-4a9c-b0b0-9c7d559ce7c3"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "8ae754bb-ae11-4aad-a9a6-b53a9301d9a9",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "060433ef-da27-42e8-913a-f0a53ea669c5",
+      "006a3038-7982-47b1-b3fe-422e74d793ed"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "7afe5a4a-bbbf-4a6a-9da2-35cd8c0f86ff",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "d34255bf-28c0-4755-936e-0f06c8852628",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ProductToStage": {
+          "id": "f78b6a77-ed6d-4e54-af29-0b33a4f068d4",
+          "excluded_scenarios": [],
+          "enabled": true
+        }
+      },
+      "0580737a-4123-4707-a6ec-29e793ef4d21",
+      "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+    ]
+  }
+]
