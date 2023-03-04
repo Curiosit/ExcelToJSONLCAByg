@@ -1,0 +1,78 @@
+[
+    {
+        "Node": {
+            "Stage": {
+                "id": "9a539756-8e02-4d73-9bc6-c41788863912",
+                "name": {
+                    "Danish": "Test-phase-m2(A1-A3)",
+                    "English": "Test-phase-m2(A1-A3)"
+                },
+                "source": "User",
+                "comment": "Stage ID created by ExcelJsonParser ",
+                "locked": true,
+                "valid_to": "2025-01-01",
+                "stage": "A1to3",
+                "stage_unit": "M2",
+                "indicator_unit": "M2",
+                "stage_factor": 1.0,
+                "mass_factor": 100.0,
+                "indicator_factor": 1.0,
+                "external_source": "ExcelJsonParser",
+                "external_id": "0    Test id\n1    Test id\nName: external_id, dtype: object",
+                "external_version": "00.00.011",
+                "external_url": "https://github.com/Curiosit/Ifcparser",
+                "indicators": {
+                    "GWP": 1.0,
+                    "ODP": 0.0,
+                    "POCP": 0.0,
+                    "AP": 0.0,
+                    "EP": 0.0,
+                    "ADPE": 0.0,
+                    "ADPF": 0.0,
+                    "PENR": 0.0,
+                    "PER": 0.0,
+                    "SENR": 0.0,
+                    "SER": 0.0
+                }
+            }
+        }
+    },
+    {
+        "Node": {
+            "Stage": {
+                "id": "e1991916-adb0-465a-89db-ab6ba7dad36a",
+                "name": {
+                    "Danish": "Test-phase-m(A1-A3)",
+                    "English": "Test-phase-m(A1-A3)"
+                },
+                "source": "User",
+                "comment": "Stage ID created by ExcelJsonParser ",
+                "locked": true,
+                "valid_to": "2025-01-01",
+                "stage": "A1to3",
+                "stage_unit": "M2",
+                "indicator_unit": "M2",
+                "stage_factor": 1.0,
+                "mass_factor": 100.0,
+                "indicator_factor": 1.0,
+                "external_source": "ExcelJsonParser",
+                "external_id": "0    Test id\n1    Test id\nName: external_id, dtype: object",
+                "external_version": "00.00.011",
+                "external_url": "https://github.com/Curiosit/Ifcparser",
+                "indicators": {
+                    "GWP": 1.0,
+                    "ODP": 0.0,
+                    "POCP": 0.0,
+                    "AP": 0.0,
+                    "EP": 0.0,
+                    "ADPE": 0.0,
+                    "ADPF": 0.0,
+                    "PENR": 0.0,
+                    "PER": 0.0,
+                    "SENR": 0.0,
+                    "SER": 0.0
+                }
+            }
+        }
+    }
+]

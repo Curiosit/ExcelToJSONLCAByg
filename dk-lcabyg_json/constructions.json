@@ -1,0 +1,252 @@
+[
+    {
+        "Node": {
+            "Construction": {
+                "id": "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+                "name": {
+                    "Danish": "(21)2 - Yderv\u00e6g 2",
+                    "English": "Test construction"
+                },
+                "unit": "M2",
+                "source": "User",
+                "comment": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+                "layer": 1,
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "56b254d7-0dc3-4901-b9b2-1a33c63ab70e",
+                    "amount": 1.0,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+            "060433ef-da27-42e8-913a-f0a53ea669c5"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "e745ac53-ffba-4013-8ba1-55bc4a8c0a7b",
+                    "amount": 2.5,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "9f40bbf3-e9e4-449e-a657-a6c85014e474",
+            "76512542-a104-4733-9f37-884d4083cbb1"
+        ]
+    },
+    {
+        "Node": {
+            "Construction": {
+                "id": "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+                "name": {
+                    "Danish": "(21)1 - Yderv\u00e6g, K\u00e6lder",
+                    "English": "Test construction"
+                },
+                "unit": "M2",
+                "source": "User",
+                "comment": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+                "layer": 1,
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "e48b31f1-c62b-465b-9913-f24eb81cc868",
+                    "amount": 1.0,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+            "060433ef-da27-42e8-913a-f0a53ea669c5"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "d50680c2-2e9b-4a14-80d2-5d5428c23f29",
+                    "amount": 1.5,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "77e2aee8-85fe-4d69-8dd3-3fed0637ae63",
+            "76512542-a104-4733-9f37-884d4083cbb1"
+        ]
+    },
+    {
+        "Node": {
+            "Construction": {
+                "id": "798df5b1-8685-4edf-a4fc-b355147a004c",
+                "name": {
+                    "Danish": "(21)2 - Yderv\u00e6g",
+                    "English": "Test construction"
+                },
+                "unit": "M2",
+                "source": "User",
+                "comment": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+                "layer": 1,
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "04001a59-05e7-4a3d-80aa-f28a510850be",
+                    "amount": 1.0,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "798df5b1-8685-4edf-a4fc-b355147a004c",
+            "060433ef-da27-42e8-913a-f0a53ea669c5"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "b6c8af79-823a-49fd-acfe-f8bb09f07bf1",
+                    "amount": 2.5,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "798df5b1-8685-4edf-a4fc-b355147a004c",
+            "76512542-a104-4733-9f37-884d4083cbb1"
+        ]
+    },
+    {
+        "Node": {
+            "Construction": {
+                "id": "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+                "name": {
+                    "Danish": "(21)3 - Kvist yderv\u00e6gge",
+                    "English": "Test construction"
+                },
+                "unit": "M2",
+                "source": "User",
+                "comment": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+                "layer": 1,
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "5e863327-8473-4be2-b43d-f697e1e70c69",
+                    "amount": 2.0,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+            "0580737a-4123-4707-a6ec-29e793ef4d21"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "91802fdc-d9e6-4566-a65a-5f1f1bcfc9ac",
+                    "amount": 2.5,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "3f7c7e42-50e1-4421-b978-83d5e07c083f",
+            "76512542-a104-4733-9f37-884d4083cbb1"
+        ]
+    },
+    {
+        "Node": {
+            "Construction": {
+                "id": "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+                "name": {
+                    "Danish": "(21)3 - Kvist yderv\u00e6gge 2",
+                    "English": "Test construction"
+                },
+                "unit": "M2",
+                "source": "User",
+                "comment": "Created by Excel_to_JSON_LCAByg. https://github.com/Curiosit/Excel_to_JSON_LCAByg",
+                "layer": 1,
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "ebef47d3-73a3-4869-a2d1-1c82da1022fe",
+                    "amount": 1.0,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+            "060433ef-da27-42e8-913a-f0a53ea669c5"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ConstructionToProduct": {
+                    "id": "020f69f0-e2bc-4835-a644-c1bc3323c5e8",
+                    "amount": 2.5,
+                    "unit": "M3",
+                    "lifespan": 50,
+                    "demolition": false,
+                    "enabled": true,
+                    "delayed_start": 0
+                }
+            },
+            "905e985b-09ec-42c5-b2f3-4109bacc02d0",
+            "76512542-a104-4733-9f37-884d4083cbb1"
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "Node": {
+            "StageCategory": {
+                "id": "04be0ff0-908c-4a9e-8ddf-5760548941bf",
+                "name": {
+                    "Danish": "Test underkategori",
+                    "English": "Test underkategori"
+                },
+                "external_class": "1.1.1"
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "Generic": "3915e124-8f63-4dfb-a374-9a4e96d06741"
+            },
+            "4cf6cca4-0814-42d3-b26d-c0dd3792bccd",
+            "9a539756-8e02-4d73-9bc6-c41788863912"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "Generic": "a1d41c15-f4cc-4527-b58a-68effbd55f0d"
+            },
+            "4cf6cca4-0814-42d3-b26d-c0dd3792bccd",
+            "e1991916-adb0-465a-89db-ab6ba7dad36a"
+        ]
+    }
+]

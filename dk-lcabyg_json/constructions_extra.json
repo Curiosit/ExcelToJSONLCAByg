@@ -1,0 +1,72 @@
+[
+    {
+        "Edge": [
+            {
+                "CategoryToConstruction": {
+                    "id": "8b23ba8d-d4fd-41da-9e75-63e94ad48cb3",
+                    "layers": [
+                        1
+                    ]
+                }
+            },
+            "069983d0-d08b-405b-b816-d28ca9648956",
+            "9f40bbf3-e9e4-449e-a657-a6c85014e474"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "CategoryToConstruction": {
+                    "id": "5e84faea-ca2d-4508-8d38-eab58837cda2",
+                    "layers": [
+                        1
+                    ]
+                }
+            },
+            "069983d0-d08b-405b-b816-d28ca9648956",
+            "77e2aee8-85fe-4d69-8dd3-3fed0637ae63"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "CategoryToConstruction": {
+                    "id": "1c661c56-deeb-429b-94ba-bc1d98be2f11",
+                    "layers": [
+                        1
+                    ]
+                }
+            },
+            "069983d0-d08b-405b-b816-d28ca9648956",
+            "798df5b1-8685-4edf-a4fc-b355147a004c"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "CategoryToConstruction": {
+                    "id": "d8a232a5-6be2-4998-9704-327cec594c32",
+                    "layers": [
+                        1
+                    ]
+                }
+            },
+            "069983d0-d08b-405b-b816-d28ca9648956",
+            "3f7c7e42-50e1-4421-b978-83d5e07c083f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "CategoryToConstruction": {
+                    "id": "173bbe37-2253-475d-998c-09fcf631cf60",
+                    "layers": [
+                        1
+                    ]
+                }
+            },
+            "069983d0-d08b-405b-b816-d28ca9648956",
+            "905e985b-09ec-42c5-b2f3-4109bacc02d0"
+        ]
+    }
+]

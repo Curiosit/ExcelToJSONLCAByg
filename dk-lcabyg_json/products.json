@@ -1,0 +1,4622 @@
+[
+    {
+        "Node": {
+            "Product": {
+                "id": "51bcec85-9105-4946-8a8a-51219bf9adfa",
+                "name": {
+                    "Danish": "Testproduct m2",
+                    "English": "Testproduct m2"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b92e1931-b5be-4df9-b66e-7362f3ef34b3",
+                    "enabled": true
+                }
+            },
+            "51bcec85-9105-4946-8a8a-51219bf9adfa",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a895a8e9-09d7-4034-bf4f-73229a3eaf8d",
+                    "enabled": true
+                }
+            },
+            "51bcec85-9105-4946-8a8a-51219bf9adfa",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1556df43-d6a3-4f3d-aa3b-cc8be9e9a9b0",
+                    "enabled": true
+                }
+            },
+            "51bcec85-9105-4946-8a8a-51219bf9adfa",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5dcafff0-1ec7-49e7-b425-fff6d1a0e03f",
+                "name": {
+                    "Danish": "Testproduct m",
+                    "English": "Testproduct m"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ec02820c-b6c8-4f30-b1d7-6f80508e7984",
+                    "enabled": true
+                }
+            },
+            "5dcafff0-1ec7-49e7-b425-fff6d1a0e03f",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "306a296f-debb-4996-b579-0c31081ef109",
+                    "enabled": true
+                }
+            },
+            "5dcafff0-1ec7-49e7-b425-fff6d1a0e03f",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7978637b-2e54-4427-94c3-43dc81a02763",
+                    "enabled": true
+                }
+            },
+            "5dcafff0-1ec7-49e7-b425-fff6d1a0e03f",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "bcea8d4f-c372-4447-b3db-fa143c36b0bc",
+                "name": {
+                    "Danish": "Product 01",
+                    "English": "Product 01"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "47f2a10b-fc88-4ba6-b0e6-5d645860a437",
+                    "enabled": true
+                }
+            },
+            "bcea8d4f-c372-4447-b3db-fa143c36b0bc",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0fc4749b-15f0-4da0-9083-cbe44475a25f",
+                    "enabled": true
+                }
+            },
+            "bcea8d4f-c372-4447-b3db-fa143c36b0bc",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d3e0fd6e-6187-4c98-8fcc-59fb6a8c8cc6",
+                    "enabled": true
+                }
+            },
+            "bcea8d4f-c372-4447-b3db-fa143c36b0bc",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "b120fb03-7bb3-4be9-aff1-c37771850179",
+                "name": {
+                    "Danish": "<By Category>",
+                    "English": "<By Category>"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c093923b-2bf7-4017-93ad-a47980580942",
+                    "enabled": true
+                }
+            },
+            "b120fb03-7bb3-4be9-aff1-c37771850179",
+            "b3499273-cd9c-5747-88a3-10f19f95dd97"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "326ddb70-e2a8-4f82-9ead-539b2cf1aab1",
+                    "enabled": true
+                }
+            },
+            "b120fb03-7bb3-4be9-aff1-c37771850179",
+            "ed364b7a-8f38-58e3-a362-2148a647013a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "799fab3b-6adf-4060-ac3b-f52427cb480b",
+                    "enabled": true
+                }
+            },
+            "b120fb03-7bb3-4be9-aff1-c37771850179",
+            "bfb0eef1-6ce5-5653-b989-d58e52ef8690"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "28b79b9f-ee4a-4c8e-843c-8f666713aca1",
+                "name": {
+                    "Danish": "Puds",
+                    "English": "Puds"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c31d500c-3244-4ec3-af7c-4cc22b2b81d7",
+                    "enabled": true
+                }
+            },
+            "28b79b9f-ee4a-4c8e-843c-8f666713aca1",
+            "cb7b4cf3-34d5-5e51-bd85-c1a64fb17b4e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7e33f89c-d633-422a-9f5a-140a7be640b2",
+                    "enabled": true
+                }
+            },
+            "28b79b9f-ee4a-4c8e-843c-8f666713aca1",
+            "01ee3030-f13f-55bb-b73b-54357b58f295"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "060433ef-da27-42e8-913a-f0a53ea669c5",
+                "name": {
+                    "Danish": "NO INFO / Beton C25/30, fabriksbeton og betonelementer",
+                    "English": "NO INFO / Beton C25/30, fabriksbeton og betonelementer"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "659ca642-9dad-4376-8949-bcc5c068a14e",
+                    "enabled": true
+                }
+            },
+            "060433ef-da27-42e8-913a-f0a53ea669c5",
+            "f47c0b01-cab2-5521-ad41-24ca177d9a22"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8ae754bb-ae11-4aad-a9a6-b53a9301d9a9",
+                    "enabled": true
+                }
+            },
+            "060433ef-da27-42e8-913a-f0a53ea669c5",
+            "dd4def72-d33a-5871-a35f-f4f3f86904e8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c4efa8ee-f615-41a5-b8ef-f61129d17688",
+                    "enabled": true
+                }
+            },
+            "060433ef-da27-42e8-913a-f0a53ea669c5",
+            "761b62c3-7889-5b48-8371-fd0bd5de7ad9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "76512542-a104-4733-9f37-884d4083cbb1",
+                "name": {
+                    "Danish": "Mineraluld, facadesystem",
+                    "English": "Mineraluld, facadesystem"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "376c5d39-f91a-4619-8ca1-329d7ba1ed72",
+                    "enabled": true
+                }
+            },
+            "76512542-a104-4733-9f37-884d4083cbb1",
+            "352ffa4c-e49e-502a-875f-0f52097d829b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b2fa8be2-bf2c-428b-a6ab-dd97095be5c9",
+                    "enabled": true
+                }
+            },
+            "76512542-a104-4733-9f37-884d4083cbb1",
+            "1a4f2437-97bd-5135-b2ea-25a50de8729d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7873b218-a9cd-447d-9253-37817d215f33",
+                    "enabled": true
+                }
+            },
+            "76512542-a104-4733-9f37-884d4083cbb1",
+            "5be1abed-e4f4-559a-9bd5-398274d27f02"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "86576905-d676-44e6-89be-cd624471e21d",
+                "name": {
+                    "Danish": "Mineraluld, facadesystem",
+                    "English": "Mineraluld, facadesystem"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "614c94bc-1acc-4999-ba5d-ce685bd3a80a",
+                    "enabled": true
+                }
+            },
+            "86576905-d676-44e6-89be-cd624471e21d",
+            "352ffa4c-e49e-502a-875f-0f52097d829b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b949d53d-254a-43b2-8b51-3814a80a8b7f",
+                    "enabled": true
+                }
+            },
+            "86576905-d676-44e6-89be-cd624471e21d",
+            "1a4f2437-97bd-5135-b2ea-25a50de8729d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fced4586-5746-4725-bc56-7c8fb8662284",
+                    "enabled": true
+                }
+            },
+            "86576905-d676-44e6-89be-cd624471e21d",
+            "5be1abed-e4f4-559a-9bd5-398274d27f02"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "0637d670-4c32-4d6c-9de4-99207bedffc7",
+                "name": {
+                    "Danish": "Grunder, silikat dispersion",
+                    "English": "Grunder, silikat dispersion"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "185e8498-da4d-4dc6-b8b9-9ab187c5f717",
+                    "enabled": true
+                }
+            },
+            "0637d670-4c32-4d6c-9de4-99207bedffc7",
+            "15466a42-c79d-5ad9-992a-ed1f8d3d4d12"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "286b444a-1a87-4e5e-92da-3fe0e02aa74c",
+                    "enabled": true
+                }
+            },
+            "0637d670-4c32-4d6c-9de4-99207bedffc7",
+            "a90a1a9a-e321-5694-9290-f01c432e6fce"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "25011a53-f93d-4d93-aeae-2d59bf395b8c",
+                "name": {
+                    "Danish": "Tagpap, bitumen toplag, ikke skiferbestr\u0102\u00b8et",
+                    "English": "Tagpap, bitumen toplag, ikke skiferbestr\u0102\u00b8et"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c0bd644a-e6d9-462f-b3eb-42efbe6154a7",
+                    "enabled": true
+                }
+            },
+            "25011a53-f93d-4d93-aeae-2d59bf395b8c",
+            "004775b3-963e-5864-afeb-d0da97177da1"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "756d0519-2337-4113-83f4-cbd81684fb5f",
+                    "enabled": true
+                }
+            },
+            "25011a53-f93d-4d93-aeae-2d59bf395b8c",
+            "7bb42c52-4dd7-546e-bae6-8b9cbce2f41f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "931ae994-f91a-4555-90df-db9a436d367c",
+                    "enabled": true
+                }
+            },
+            "25011a53-f93d-4d93-aeae-2d59bf395b8c",
+            "fb3dd1bd-a864-5ce7-acf6-40c2c6fd44b9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "004cddb2-cdba-4255-a98e-cdb37713da66",
+                "name": {
+                    "Danish": "Folie til gr\u00f8nt tag",
+                    "English": "Folie til gr\u00f8nt tag"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "66bfc496-aef7-4fbb-96e1-e82d9659e696",
+                    "enabled": true
+                }
+            },
+            "004cddb2-cdba-4255-a98e-cdb37713da66",
+            "8bd6085a-9022-5ee2-b9d5-000704748e71"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d6a7bfee-62c1-42c2-9b24-00211adb5596",
+                    "enabled": true
+                }
+            },
+            "004cddb2-cdba-4255-a98e-cdb37713da66",
+            "7f9f9f01-8f51-5b28-be34-34b1f1cca794"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0a7bd5b8-24ac-46e7-a343-5dd86546bcec",
+                    "enabled": true
+                }
+            },
+            "004cddb2-cdba-4255-a98e-cdb37713da66",
+            "bee897e2-d6ec-5502-bbbd-2ef7a7e68a2e"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "0580737a-4123-4707-a6ec-29e793ef4d21",
+                "name": {
+                    "Danish": "Kalksandsten",
+                    "English": "Kalksandsten"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7afe5a4a-bbbf-4a6a-9da2-35cd8c0f86ff",
+                    "enabled": true
+                }
+            },
+            "0580737a-4123-4707-a6ec-29e793ef4d21",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d34255bf-28c0-4755-936e-0f06c8852628",
+                    "enabled": true
+                }
+            },
+            "0580737a-4123-4707-a6ec-29e793ef4d21",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f78b6a77-ed6d-4e54-af29-0b33a4f068d4",
+                    "enabled": true
+                }
+            },
+            "0580737a-4123-4707-a6ec-29e793ef4d21",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5aeed816-37b1-43bc-8854-28b496fb86f2",
+                "name": {
+                    "Danish": "Kalksandsten",
+                    "English": "Kalksandsten"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6c040650-3277-47be-9fee-4096c7972fe0",
+                    "enabled": true
+                }
+            },
+            "5aeed816-37b1-43bc-8854-28b496fb86f2",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a4b79e16-6dc7-4717-86fd-0948125ced5a",
+                    "enabled": true
+                }
+            },
+            "5aeed816-37b1-43bc-8854-28b496fb86f2",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8745dd20-aaf3-4054-81a5-5b222beb937d",
+                    "enabled": true
+                }
+            },
+            "5aeed816-37b1-43bc-8854-28b496fb86f2",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5dab1b91-1d54-46ef-a9d7-ae9695bef59d",
+                "name": {
+                    "Danish": "Gips, v\u00e6gplade (tykkelse 0,1 m)",
+                    "English": "Gips, v\u00e6gplade (tykkelse 0,1 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0cc7ee4f-10cd-476f-98b1-1447c60550d4",
+                    "enabled": true
+                }
+            },
+            "5dab1b91-1d54-46ef-a9d7-ae9695bef59d",
+            "a883710e-7e02-5ae5-85b2-19956549970a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "9db2f0e3-3bbc-440f-bd59-6e1393b1f2f4",
+                    "enabled": true
+                }
+            },
+            "5dab1b91-1d54-46ef-a9d7-ae9695bef59d",
+            "e73bd573-3a47-5fb3-b135-d1a43a34fa5d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "ba8b3084-a1da-4ed7-9db0-9ce405e1f856",
+                "name": {
+                    "Danish": "Lim til gipsplader",
+                    "English": "Lim til gipsplader"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "97784071-e823-42b8-8bf3-381c6e287dd9",
+                    "enabled": true
+                }
+            },
+            "ba8b3084-a1da-4ed7-9db0-9ce405e1f856",
+            "082af2cb-7eb1-52f6-9e77-8a8421be5421"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "add5a5c5-b9bf-4841-b949-9e7c49b64493",
+                    "enabled": true
+                }
+            },
+            "ba8b3084-a1da-4ed7-9db0-9ce405e1f856",
+            "707fac96-0e15-53a4-a380-a882ab2b76df"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "335a1cdc-42e0-4ab2-a966-45e90ef6a476",
+                "name": {
+                    "Danish": "Kalksandsten",
+                    "English": "Kalksandsten"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6de39653-8fc0-4502-a3d3-509016f97a59",
+                    "enabled": true
+                }
+            },
+            "335a1cdc-42e0-4ab2-a966-45e90ef6a476",
+            "e60d6a55-44e3-5ade-88f5-07e0fd29d1d0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0a1a0148-bef1-401f-a72c-c7044eb4cbfb",
+                    "enabled": true
+                }
+            },
+            "335a1cdc-42e0-4ab2-a966-45e90ef6a476",
+            "caa5e6c3-0efd-53b6-8b9b-2142880cc69f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a379b839-9da5-4793-a202-52f2342e4836",
+                    "enabled": true
+                }
+            },
+            "335a1cdc-42e0-4ab2-a966-45e90ef6a476",
+            "9a4ebb4a-f90a-5e0b-b5b5-76b0a965c1f0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "b32e34b9-ad5f-4a41-954c-d7da51a579b1",
+                "name": {
+                    "Danish": "Keramikfliser, glaseret",
+                    "English": "Keramikfliser, glaseret"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b2b3378b-386b-4133-8f22-773f9460f770",
+                    "enabled": true
+                }
+            },
+            "b32e34b9-ad5f-4a41-954c-d7da51a579b1",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "afb0a82e-31c3-4fa6-94dc-fc72d21c92fe",
+                    "enabled": true
+                }
+            },
+            "b32e34b9-ad5f-4a41-954c-d7da51a579b1",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d64524d3-7d5f-4d8e-b8e1-056c72ebd1ef",
+                    "enabled": true
+                }
+            },
+            "b32e34b9-ad5f-4a41-954c-d7da51a579b1",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "d31dba83-e710-41c4-aa98-61f69598d369",
+                "name": {
+                    "Danish": "Bips - Isolering Bl\u00f8d kl 34",
+                    "English": "Bips - Isolering Bl\u00f8d kl 34"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "970a1a41-e0ae-45d4-bcbf-c9d9219a1038",
+                    "enabled": true
+                }
+            },
+            "d31dba83-e710-41c4-aa98-61f69598d369",
+            "8bd37a93-160d-541d-9e48-85ef492eda6d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ef295c38-b505-48a2-8121-24ddb2d832b9",
+                    "enabled": true
+                }
+            },
+            "d31dba83-e710-41c4-aa98-61f69598d369",
+            "8d9cb2f2-f5a6-501c-a309-3217e8b21fc0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c44a5fe8-d76a-4414-a6d1-f6cbe9f7b6b7",
+                    "enabled": true
+                }
+            },
+            "d31dba83-e710-41c4-aa98-61f69598d369",
+            "d6fa7582-7ce8-5100-b067-934fbdde5d91"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "eba8ea7e-6a00-4a63-b4c1-44456bd92fd9",
+                "name": {
+                    "Danish": "St\u00f8beeasfalt",
+                    "English": "St\u00f8beeasfalt"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ed9696e7-c100-4f80-9a8d-56c1c85c57df",
+                    "enabled": true
+                }
+            },
+            "eba8ea7e-6a00-4a63-b4c1-44456bd92fd9",
+            "733a07d5-40ed-590f-b303-5ca02cb08db7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a5b69c64-7569-4288-8777-7fb1e87ed727",
+                    "enabled": true
+                }
+            },
+            "eba8ea7e-6a00-4a63-b4c1-44456bd92fd9",
+            "57100e64-2c28-570b-a5b9-da0a334dce1f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8969a910-0cf7-4b4a-9a22-aab4d6f8df21",
+                    "enabled": true
+                }
+            },
+            "eba8ea7e-6a00-4a63-b4c1-44456bd92fd9",
+            "c7f6da60-ce86-56b4-afe5-bdcfe3f889bb"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "77498b01-911f-4b40-ae8d-3d59bbfcc5bb",
+                    "enabled": true
+                }
+            },
+            "eba8ea7e-6a00-4a63-b4c1-44456bd92fd9",
+            "6f6a142c-eb8e-5695-8411-65ee05bfe6c9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "3a0a6642-6194-4132-919a-bc46b2822186",
+                "name": {
+                    "Danish": "Beton C20 / 25, Fabriksbeton",
+                    "English": "Beton C20 / 25, Fabriksbeton"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "02b6514a-3963-4e39-b3de-ae6d79b0ee71",
+                    "enabled": true
+                }
+            },
+            "3a0a6642-6194-4132-919a-bc46b2822186",
+            "35932b61-3c90-544c-a3c2-ea777a3f8255"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "63b830d0-4c4c-4a88-a903-400226dd0c42",
+                    "enabled": true
+                }
+            },
+            "3a0a6642-6194-4132-919a-bc46b2822186",
+            "73811ed5-804d-5751-a84d-40ae39efa3c8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c29dfba7-248f-46f8-9e75-51f0cebacfcb",
+                    "enabled": true
+                }
+            },
+            "3a0a6642-6194-4132-919a-bc46b2822186",
+            "4fc00e83-f075-5708-a044-70fd71ad830b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "2cba0eef-7faf-443d-964f-5e6647381062",
+                "name": {
+                    "Danish": "St\u00e5l, valsede profiler og plader",
+                    "English": "St\u00e5l, valsede profiler og plader"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2ee3ab9f-3b8e-4496-9700-d44a40140268",
+                    "enabled": true
+                }
+            },
+            "2cba0eef-7faf-443d-964f-5e6647381062",
+            "b7e422e6-1186-56a1-b9be-d17e524fcbc7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "eb4e1728-42bf-406d-b6d5-ddff247e6399",
+                    "enabled": true
+                }
+            },
+            "2cba0eef-7faf-443d-964f-5e6647381062",
+            "5e5acb2a-a410-5aac-9498-8323e8eeac14"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3b14bec2-6b46-47ae-8b02-cfdad413c2e6",
+                    "enabled": true
+                }
+            },
+            "2cba0eef-7faf-443d-964f-5e6647381062",
+            "b61b32de-b7ad-5d4f-8a01-1663b2d56aa9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "d76a2d92-03e5-4449-a5eb-158ac62e3093",
+                "name": {
+                    "Danish": "Armeringsnet",
+                    "English": "Armeringsnet"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "90701fee-471e-4718-aeb3-30b82a967902",
+                    "enabled": true
+                }
+            },
+            "d76a2d92-03e5-4449-a5eb-158ac62e3093",
+            "9a097a9e-a3d8-5959-b42c-9ae5e38a0707"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "092fbb5e-9929-4681-a27e-354580e2c4e8",
+                "name": {
+                    "Danish": "Keramikfliser, glaseret",
+                    "English": "Keramikfliser, glaseret"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "88a7a21d-4be1-4c19-ba81-fcc9ddcd7f0e",
+                    "enabled": true
+                }
+            },
+            "092fbb5e-9929-4681-a27e-354580e2c4e8",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "05dea595-d112-4550-b946-47252e434e0a",
+                    "enabled": true
+                }
+            },
+            "092fbb5e-9929-4681-a27e-354580e2c4e8",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d38be1a8-a8db-4866-8daf-fcba92cddff5",
+                    "enabled": true
+                }
+            },
+            "092fbb5e-9929-4681-a27e-354580e2c4e8",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "ff9f1ac5-9b68-4fa6-982d-ae740fd5418c",
+                "name": {
+                    "Danish": "3-lags-rude ",
+                    "English": "3-lags-rude "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "cad369e1-d7a6-443e-a840-62306853d40f",
+                    "enabled": true
+                }
+            },
+            "ff9f1ac5-9b68-4fa6-982d-ae740fd5418c",
+            "71d53aed-55fe-5b2a-baa5-ffc5aa21a648"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "92a0be09-44bb-4a67-8d93-f46a4a2dbc82",
+                    "enabled": true
+                }
+            },
+            "ff9f1ac5-9b68-4fa6-982d-ae740fd5418c",
+            "28fc1f5c-c247-5866-8b87-4441c830735b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "dc539c22-4b9b-4b3a-9cbc-623479871757",
+                    "enabled": true
+                }
+            },
+            "ff9f1ac5-9b68-4fa6-982d-ae740fd5418c",
+            "b2cbcd76-9498-5716-8371-8b3113d8c82f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ab1db1df-f7b2-496a-b922-611f773845bb",
+                    "enabled": true
+                }
+            },
+            "ff9f1ac5-9b68-4fa6-982d-ae740fd5418c",
+            "30d2438b-f121-5452-aec6-616a3f28725a"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "4071e78a-48b0-4968-a502-4b1d2067b35a",
+                "name": {
+                    "Danish": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)",
+                    "English": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1814d14f-6a6b-4e1b-8047-28981ddd7490",
+                    "enabled": true
+                }
+            },
+            "4071e78a-48b0-4968-a502-4b1d2067b35a",
+            "a226cf1f-75a0-5fdb-9e64-a68cf3bd3744"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6a68fa88-9207-47f1-98c8-48d69d9bf230",
+                    "enabled": true
+                }
+            },
+            "4071e78a-48b0-4968-a502-4b1d2067b35a",
+            "3b9434e5-8a94-5f1d-9506-106a79a46df6"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3c3e33c2-58e9-46de-904b-192839745e3a",
+                    "enabled": true
+                }
+            },
+            "4071e78a-48b0-4968-a502-4b1d2067b35a",
+            "fd952985-db8d-5687-90e2-e6c1deef2fdd"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5f7086a8-fc97-49b2-a722-f5e1cde26668",
+                "name": {
+                    "Danish": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)",
+                    "English": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fd9593eb-78e6-44c3-9417-cd4b6ac2ba61",
+                    "enabled": true
+                }
+            },
+            "5f7086a8-fc97-49b2-a722-f5e1cde26668",
+            "a226cf1f-75a0-5fdb-9e64-a68cf3bd3744"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6961092b-42dd-4803-9339-e917fdb0061c",
+                    "enabled": true
+                }
+            },
+            "5f7086a8-fc97-49b2-a722-f5e1cde26668",
+            "3b9434e5-8a94-5f1d-9506-106a79a46df6"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3a376a26-d00f-4ba2-af21-c98adfe65b93",
+                    "enabled": true
+                }
+            },
+            "5f7086a8-fc97-49b2-a722-f5e1cde26668",
+            "fd952985-db8d-5687-90e2-e6c1deef2fdd"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e70f45fb-b308-4fd0-9a0f-63499855d7bb",
+                "name": {
+                    "Danish": "Fugeb\u00e5nd, tekstil",
+                    "English": "Fugeb\u00e5nd, tekstil"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a5c507b0-24ea-4921-b092-a0940f6e7bd3",
+                    "enabled": true
+                }
+            },
+            "e70f45fb-b308-4fd0-9a0f-63499855d7bb",
+            "27824902-82ab-59d4-a021-56b40a39ef44"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "80db72cc-7bf0-451f-9018-934557d4af41",
+                    "enabled": true
+                }
+            },
+            "e70f45fb-b308-4fd0-9a0f-63499855d7bb",
+            "8880d9ec-d7fc-5c13-84a3-fb862309b6c9"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3d838898-48b2-4e70-8523-a2c6cab46aff",
+                    "enabled": true
+                }
+            },
+            "e70f45fb-b308-4fd0-9a0f-63499855d7bb",
+            "215c820d-a59a-5f5d-b058-15261b3374f7"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "046b31e1-a556-43d9-8d83-808e136b0d57",
+                "name": {
+                    "Danish": "Vegetationssubstrat",
+                    "English": "Vegetationssubstrat"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0788aefd-7e8b-4511-ae2b-cd9663f1935c",
+                    "enabled": true
+                }
+            },
+            "046b31e1-a556-43d9-8d83-808e136b0d57",
+            "2c82c740-fa15-5a31-a2a2-73b2209b0d20"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "996ce74f-0635-4d73-a7a5-9a371f391ad7",
+                    "enabled": true
+                }
+            },
+            "046b31e1-a556-43d9-8d83-808e136b0d57",
+            "eaff22b7-141b-5870-a113-37ed37ea2c33"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8c26000e-01d9-460e-9328-32da1af790e7",
+                    "enabled": true
+                }
+            },
+            "046b31e1-a556-43d9-8d83-808e136b0d57",
+            "81c7635c-53c0-5124-a9db-b1e687445829"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e45c7d82-4e94-4402-9991-c48a058d3a90",
+                "name": {
+                    "Danish": "Mineraluld, alm.",
+                    "English": "Mineraluld, alm."
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "677cc8d4-b5f9-463b-839f-b671651c1195",
+                    "enabled": true
+                }
+            },
+            "e45c7d82-4e94-4402-9991-c48a058d3a90",
+            "8bd37a93-160d-541d-9e48-85ef492eda6d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "343cf295-9178-44c0-acd5-26ff19371c73",
+                    "enabled": true
+                }
+            },
+            "e45c7d82-4e94-4402-9991-c48a058d3a90",
+            "8d9cb2f2-f5a6-501c-a309-3217e8b21fc0"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ac6808c9-1fc1-4afe-89d5-caf98b95b6c9",
+                    "enabled": true
+                }
+            },
+            "e45c7d82-4e94-4402-9991-c48a058d3a90",
+            "d6fa7582-7ce8-5100-b067-934fbdde5d91"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e9947e0b-c4ce-495d-b4d7-994b87e36b32",
+                "name": {
+                    "Danish": "Afretningslag, cementbaseret",
+                    "English": "Afretningslag, cementbaseret"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e8e43667-18b6-46cb-a72c-289025aa1d3c",
+                    "enabled": true
+                }
+            },
+            "e9947e0b-c4ce-495d-b4d7-994b87e36b32",
+            "0e97e926-9e13-5d51-a414-171d0c9fd633"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d177bd5b-172c-48b7-a680-9bdda3be97d1",
+                    "enabled": true
+                }
+            },
+            "e9947e0b-c4ce-495d-b4d7-994b87e36b32",
+            "b40dcdc3-7a10-5af1-9c33-3a1eecf108d1"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "1538bd6f-e2d8-4617-99c3-bdc1dc1ef62a",
+                "name": {
+                    "Danish": "PVC gulvbel\u00e6gning",
+                    "English": "PVC gulvbel\u00e6gning"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "643ae563-c1ba-4ec3-8215-6eb40e84cde3",
+                    "enabled": true
+                }
+            },
+            "1538bd6f-e2d8-4617-99c3-bdc1dc1ef62a",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f63c5747-791c-4733-ab31-7bb353b7a59b",
+                    "enabled": true
+                }
+            },
+            "1538bd6f-e2d8-4617-99c3-bdc1dc1ef62a",
+            "3e276891-919f-565d-b19e-9afd566f3334"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "21adc60e-22e0-4b5f-a97f-5b13a55cdd92",
+                    "enabled": true
+                }
+            },
+            "1538bd6f-e2d8-4617-99c3-bdc1dc1ef62a",
+            "a2d10a2f-bcbf-5c73-bad9-fab4aea95894"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "86f6f36a-ffb5-46e4-97c2-5a2c4c697352",
+                "name": {
+                    "Danish": "BA - n9 - Asfalt ",
+                    "English": "BA - n9 - Asfalt "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1c89c96b-11df-4ede-9153-83e3272ba35b",
+                    "enabled": true
+                }
+            },
+            "86f6f36a-ffb5-46e4-97c2-5a2c4c697352",
+            "733a07d5-40ed-590f-b303-5ca02cb08db7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "654e177d-e9c9-4c82-98b3-e6ca4ebe7df8",
+                    "enabled": true
+                }
+            },
+            "86f6f36a-ffb5-46e4-97c2-5a2c4c697352",
+            "57100e64-2c28-570b-a5b9-da0a334dce1f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1196f151-2f52-4a33-b168-3346ff5de4ad",
+                    "enabled": true
+                }
+            },
+            "86f6f36a-ffb5-46e4-97c2-5a2c4c697352",
+            "c7f6da60-ce86-56b4-afe5-bdcfe3f889bb"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "9d47ccb4-c3be-433d-b029-4ef9c04702c6",
+                    "enabled": true
+                }
+            },
+            "86f6f36a-ffb5-46e4-97c2-5a2c4c697352",
+            "6f6a142c-eb8e-5695-8411-65ee05bfe6c9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "decdfa16-2cee-44b9-9663-4ad47668c4cb",
+                "name": {
+                    "Danish": "Site - Sand ",
+                    "English": "Site - Sand "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8350f906-1517-43dc-82f3-b0997403109d",
+                    "enabled": true
+                }
+            },
+            "decdfa16-2cee-44b9-9663-4ad47668c4cb",
+            "af430771-abec-5fad-afb7-fae0b908b161"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "672017d0-8080-48d7-b162-b3da841b9049",
+                    "enabled": true
+                }
+            },
+            "decdfa16-2cee-44b9-9663-4ad47668c4cb",
+            "94bc9da9-02e4-5c3b-af06-b3aa2ea17f38"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ae3fdfdb-befa-4f59-b1c8-01018a91fb08",
+                    "enabled": true
+                }
+            },
+            "decdfa16-2cee-44b9-9663-4ad47668c4cb",
+            "aa8273b6-2182-5786-a016-269b5b03d3e0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "9594d8f4-b124-4619-bec9-9efcc433f9e3",
+                "name": {
+                    "Danish": "Letbetonblok af 100% naturlig pimpsten",
+                    "English": "Letbetonblok af 100% naturlig pimpsten"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "dc818d71-1134-4b1d-af75-09d851ec8649",
+                    "enabled": true
+                }
+            },
+            "9594d8f4-b124-4619-bec9-9efcc433f9e3",
+            "1973da5f-a73a-5519-881c-73806759ca79"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7cdeedcb-222c-4d4f-b0b2-eb88f825096c",
+                    "enabled": true
+                }
+            },
+            "9594d8f4-b124-4619-bec9-9efcc433f9e3",
+            "1ee5d171-cf2c-558e-b442-fbca2e5ef115"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5f6dec95-22f0-40ac-9c42-7c332132f1b0",
+                    "enabled": true
+                }
+            },
+            "9594d8f4-b124-4619-bec9-9efcc433f9e3",
+            "6f6dd1f2-7087-558f-83d9-9fea0ddfcf62"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "b394ab79-0d56-430d-9de4-becdf2df915b",
+                "name": {
+                    "Danish": "Vegetationssubstrat",
+                    "English": "Vegetationssubstrat"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "15356f4c-7de5-488c-9941-ea04b5b0f9e2",
+                    "enabled": true
+                }
+            },
+            "b394ab79-0d56-430d-9de4-becdf2df915b",
+            "2c82c740-fa15-5a31-a2a2-73b2209b0d20"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e8ddbe13-feee-4b5e-ae94-04ad45521743",
+                    "enabled": true
+                }
+            },
+            "b394ab79-0d56-430d-9de4-becdf2df915b",
+            "eaff22b7-141b-5870-a113-37ed37ea2c33"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "bdb7d68a-0feb-4c8c-88be-b1b48e02793a",
+                    "enabled": true
+                }
+            },
+            "b394ab79-0d56-430d-9de4-becdf2df915b",
+            "81c7635c-53c0-5124-a9db-b1e687445829"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "9e676c73-52b2-4f60-8c8e-cd731f91aa69",
+                "name": {
+                    "Danish": "Letbetonblok af 100% naturlig pimpsten",
+                    "English": "Letbetonblok af 100% naturlig pimpsten"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "be1b4f10-6075-4893-8df2-445698a6fa58",
+                    "enabled": true
+                }
+            },
+            "9e676c73-52b2-4f60-8c8e-cd731f91aa69",
+            "1973da5f-a73a-5519-881c-73806759ca79"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "43f7bb3f-2a5b-4134-945d-1f89643fe87d",
+                    "enabled": true
+                }
+            },
+            "9e676c73-52b2-4f60-8c8e-cd731f91aa69",
+            "1ee5d171-cf2c-558e-b442-fbca2e5ef115"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fe07632c-90d4-4e67-8594-065de4e721bb",
+                    "enabled": true
+                }
+            },
+            "9e676c73-52b2-4f60-8c8e-cd731f91aa69",
+            "6f6dd1f2-7087-558f-83d9-9fea0ddfcf62"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "10b60fb4-42c7-4e1a-bb61-eb2cf10fe026",
+                "name": {
+                    "Danish": "Gips, toerstof (gipsfiberplade) (tykkelse 0,025 m)",
+                    "English": "Gips, toerstof (gipsfiberplade) (tykkelse 0,025 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8a8b16df-946a-4685-80dc-e145e4455b68",
+                    "enabled": true
+                }
+            },
+            "10b60fb4-42c7-4e1a-bb61-eb2cf10fe026",
+            "c5916e6a-83ee-5348-8639-a694ba3610ec"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0c844885-e99a-4155-b902-0d515f764a32",
+                    "enabled": true
+                }
+            },
+            "10b60fb4-42c7-4e1a-bb61-eb2cf10fe026",
+            "84be9aaa-9d91-50c6-8c67-8afed68c9b18"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "be99e611-4231-4af6-9f78-bc7712213d6c",
+                    "enabled": true
+                }
+            },
+            "10b60fb4-42c7-4e1a-bb61-eb2cf10fe026",
+            "725d6399-4f4c-5247-a384-4e0412334fee"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "0e79d0ca-e8ec-44b0-9f34-269195cca4f7",
+                "name": {
+                    "Danish": "St\u00e5l, valsede profiler og plader",
+                    "English": "St\u00e5l, valsede profiler og plader"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "bc48d1c3-6acd-4dcf-9bd3-79e306684f82",
+                    "enabled": true
+                }
+            },
+            "0e79d0ca-e8ec-44b0-9f34-269195cca4f7",
+            "b7e422e6-1186-56a1-b9be-d17e524fcbc7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "43451cf7-24c7-4f7a-be9e-438477f311b5",
+                    "enabled": true
+                }
+            },
+            "0e79d0ca-e8ec-44b0-9f34-269195cca4f7",
+            "5e5acb2a-a410-5aac-9498-8323e8eeac14"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1b88699f-049d-41bc-b5c7-596340892056",
+                    "enabled": true
+                }
+            },
+            "0e79d0ca-e8ec-44b0-9f34-269195cca4f7",
+            "b61b32de-b7ad-5d4f-8a01-1663b2d56aa9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "0a5c7ce0-740a-4709-b553-4acb8269975d",
+                "name": {
+                    "Danish": "St\u00e5l, valsede profiler og plader",
+                    "English": "St\u00e5l, valsede profiler og plader"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "95455e0c-2829-40ca-85bd-c67be23661d0",
+                    "enabled": true
+                }
+            },
+            "0a5c7ce0-740a-4709-b553-4acb8269975d",
+            "b7e422e6-1186-56a1-b9be-d17e524fcbc7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e8b103cb-80f1-45fc-a2d1-8c109085f16e",
+                    "enabled": true
+                }
+            },
+            "0a5c7ce0-740a-4709-b553-4acb8269975d",
+            "5e5acb2a-a410-5aac-9498-8323e8eeac14"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2c72e6bc-e796-4ae6-8076-7f02a67c0d88",
+                    "enabled": true
+                }
+            },
+            "0a5c7ce0-740a-4709-b553-4acb8269975d",
+            "b61b32de-b7ad-5d4f-8a01-1663b2d56aa9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "35e79acc-404c-4bf7-9dda-7e1ee64d87f5",
+                "name": {
+                    "Danish": "Beton C45/55, fabriksbeton og betonelementer ",
+                    "English": "Beton C45/55, fabriksbeton og betonelementer "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "322586ca-89b9-4c86-b42a-49c89e51bcb3",
+                    "enabled": true
+                }
+            },
+            "35e79acc-404c-4bf7-9dda-7e1ee64d87f5",
+            "b1bbf294-a82a-5c61-b811-2e6b1d384d23"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6c7438aa-5dd1-455f-ad8c-14a6422d853f",
+                    "enabled": true
+                }
+            },
+            "35e79acc-404c-4bf7-9dda-7e1ee64d87f5",
+            "4d5f514e-2b5c-5915-99b8-783119ed1115"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0dcccfe4-fd09-4fba-8ec1-ecfa1ec30d13",
+                    "enabled": true
+                }
+            },
+            "35e79acc-404c-4bf7-9dda-7e1ee64d87f5",
+            "da930559-26d2-5c0e-83e4-8fb5e5cfbf09"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5c47997c-4bdb-492d-8ce3-f5fcb097b061",
+                "name": {
+                    "Danish": "XPS isolering",
+                    "English": "XPS isolering"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1bc2494e-6797-45e8-b077-1eb2c9238377",
+                    "enabled": true
+                }
+            },
+            "5c47997c-4bdb-492d-8ce3-f5fcb097b061",
+            "6c0600bf-40de-56d8-afea-b6d2809ea14b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3414d852-326a-46c6-829f-b0c3817adbb1",
+                    "enabled": true
+                }
+            },
+            "5c47997c-4bdb-492d-8ce3-f5fcb097b061",
+            "6c6e90c4-5fcd-568a-83a3-808e6983c8c3"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "124273c1-0242-4448-8583-43ca5e78ce93",
+                    "enabled": true
+                }
+            },
+            "5c47997c-4bdb-492d-8ce3-f5fcb097b061",
+            "bc91ca27-7413-5e45-b9b9-f4881f5d3a83"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "436b04f7-0a81-4f07-b6f6-e2bc3d500091",
+                "name": {
+                    "Danish": "EPS isolering til v\u00e6gge og tage 035",
+                    "English": "EPS isolering til v\u00e6gge og tage 035"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "728dd6e0-30c9-4964-9721-094653af19c7",
+                    "enabled": true
+                }
+            },
+            "436b04f7-0a81-4f07-b6f6-e2bc3d500091",
+            "548fb8f8-44bc-5d6f-8ac2-35da1c5c17b4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1b192647-635a-4ff7-bc6e-fc70dd88b235",
+                    "enabled": true
+                }
+            },
+            "436b04f7-0a81-4f07-b6f6-e2bc3d500091",
+            "5fd09186-a02e-5e3d-b334-f2d76a5d1c52"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2cca2c13-2cb6-4b6b-93d9-4b6c1ccc27ff",
+                    "enabled": true
+                }
+            },
+            "436b04f7-0a81-4f07-b6f6-e2bc3d500091",
+            "037644e8-f1de-515b-92ef-303d2aa90b0c"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "ea975b55-3c87-406d-a750-29f2236fb33b",
+                "name": {
+                    "Danish": "Fugeb\u00e5nd PE / PP-folie",
+                    "English": "Fugeb\u00e5nd PE / PP-folie"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6492bf2e-5cf0-484c-a042-18b41fb6bbcf",
+                    "enabled": true
+                }
+            },
+            "ea975b55-3c87-406d-a750-29f2236fb33b",
+            "4a837234-7386-56dd-ae70-b65fed1b7fe1"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c1f1e1c7-51cb-4c4b-aff5-cbbf44a7d49f",
+                    "enabled": true
+                }
+            },
+            "ea975b55-3c87-406d-a750-29f2236fb33b",
+            "51855672-193e-58a0-a93f-dc82d2956a8a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a68c1ed2-bbe7-4c5d-9706-4cd438931be0",
+                    "enabled": true
+                }
+            },
+            "ea975b55-3c87-406d-a750-29f2236fb33b",
+            "997fe1d9-b96b-5caf-bbb3-c68115bf33ff"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e49b8949-d116-4f67-bf2f-2ddbe160310e",
+                "name": {
+                    "Danish": "Gips, v\u00e6gplade (tykkelse 0,1 m)",
+                    "English": "Gips, v\u00e6gplade (tykkelse 0,1 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b88683e4-40eb-40c1-80d1-cbcab55e3aab",
+                    "enabled": true
+                }
+            },
+            "e49b8949-d116-4f67-bf2f-2ddbe160310e",
+            "a883710e-7e02-5ae5-85b2-19956549970a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "46d1a156-1901-4c69-969b-78f1f835144e",
+                    "enabled": true
+                }
+            },
+            "e49b8949-d116-4f67-bf2f-2ddbe160310e",
+            "e73bd573-3a47-5fb3-b135-d1a43a34fa5d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "bd7c060b-a6f3-42c7-861e-73923a717efb",
+                "name": {
+                    "Danish": "HPL- plade",
+                    "English": "HPL- plade"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "87c2aa2f-b1a1-4243-b563-ab99cc8fac0d",
+                    "enabled": true
+                }
+            },
+            "bd7c060b-a6f3-42c7-861e-73923a717efb",
+            "003843ad-3fb7-5fec-b960-3676a302fd7b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d8cfd703-3784-4a0f-96f6-a3fc0f6e0715",
+                    "enabled": true
+                }
+            },
+            "bd7c060b-a6f3-42c7-861e-73923a717efb",
+            "c09df2c1-6e0e-5087-98c7-b0987f2d5aea"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f3dca58f-c8f4-47d3-90bb-94e2760f83e6",
+                    "enabled": true
+                }
+            },
+            "bd7c060b-a6f3-42c7-861e-73923a717efb",
+            "ed865c31-aa85-5862-b0c8-29574fc6728e"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "beb23deb-b304-441b-8857-1567f688695a",
+                "name": {
+                    "Danish": "EPS isolering til v\u00e6gge og tage 035",
+                    "English": "EPS isolering til v\u00e6gge og tage 035"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a419c30e-8ca8-41e2-b94d-e7df2b988a7b",
+                    "enabled": true
+                }
+            },
+            "beb23deb-b304-441b-8857-1567f688695a",
+            "548fb8f8-44bc-5d6f-8ac2-35da1c5c17b4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e3055877-1aa1-45de-a393-29ef78fa7ea1",
+                    "enabled": true
+                }
+            },
+            "beb23deb-b304-441b-8857-1567f688695a",
+            "5fd09186-a02e-5e3d-b334-f2d76a5d1c52"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "440e96f1-c9ff-402b-beea-64fb39d612a5",
+                    "enabled": true
+                }
+            },
+            "beb23deb-b304-441b-8857-1567f688695a",
+            "037644e8-f1de-515b-92ef-303d2aa90b0c"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "95b3bad1-1fb7-464d-bfa4-421eef2c8d02",
+                "name": {
+                    "Danish": "Kalkpuds",
+                    "English": "Kalkpuds"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e44263d2-c2b6-45fd-8ca6-97c3dc5707ea",
+                    "enabled": true
+                }
+            },
+            "95b3bad1-1fb7-464d-bfa4-421eef2c8d02",
+            "ce088088-b40b-5e27-b7a8-f84417c088cd"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5ecc1865-e542-4fed-88e7-f918c3c73612",
+                    "enabled": true
+                }
+            },
+            "95b3bad1-1fb7-464d-bfa4-421eef2c8d02",
+            "4221a1da-c415-52c0-bee9-d64c815660f2"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "54d656c6-ebec-4993-95ec-3b09e7c5ff9b",
+                "name": {
+                    "Danish": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)",
+                    "English": "Dampsp\u00e6rre PE (tykkelse 0,0002 m)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "25276d23-889f-40fb-899f-7e07bdd14f0f",
+                    "enabled": true
+                }
+            },
+            "54d656c6-ebec-4993-95ec-3b09e7c5ff9b",
+            "a226cf1f-75a0-5fdb-9e64-a68cf3bd3744"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b8ce8b9d-9227-4e39-9629-4469cedf2278",
+                    "enabled": true
+                }
+            },
+            "54d656c6-ebec-4993-95ec-3b09e7c5ff9b",
+            "3b9434e5-8a94-5f1d-9506-106a79a46df6"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7ef041a5-fa68-4c07-bd02-076d8940d85f",
+                    "enabled": true
+                }
+            },
+            "54d656c6-ebec-4993-95ec-3b09e7c5ff9b",
+            "fd952985-db8d-5687-90e2-e6c1deef2fdd"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "a4da7165-e8b1-410a-8351-5f910146dd66",
+                "name": {
+                    "Danish": "EPS isolering til v\u00e6gge og tage 035",
+                    "English": "EPS isolering til v\u00e6gge og tage 035"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1a516bd5-d838-4abf-800f-2282382aef80",
+                    "enabled": true
+                }
+            },
+            "a4da7165-e8b1-410a-8351-5f910146dd66",
+            "548fb8f8-44bc-5d6f-8ac2-35da1c5c17b4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3039cf7d-345d-4a81-86fa-acbab5dff760",
+                    "enabled": true
+                }
+            },
+            "a4da7165-e8b1-410a-8351-5f910146dd66",
+            "5fd09186-a02e-5e3d-b334-f2d76a5d1c52"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7b088f14-d84f-4f54-98bf-92f66d40d52e",
+                    "enabled": true
+                }
+            },
+            "a4da7165-e8b1-410a-8351-5f910146dd66",
+            "037644e8-f1de-515b-92ef-303d2aa90b0c"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "27b049c6-28f6-4c2c-96da-2ff869d15938",
+                "name": {
+                    "Danish": "Mineraluld, stenuld, r\u00f8rsk\u00e5l",
+                    "English": "Mineraluld, stenuld, r\u00f8rsk\u00e5l"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "33eb1f5a-5494-412a-b07a-d56e870f7783",
+                    "enabled": true
+                }
+            },
+            "27b049c6-28f6-4c2c-96da-2ff869d15938",
+            "6202b142-5dac-5f98-8891-51f0c5a895dc"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b4855c37-e1b3-4e1e-9929-fd5951c165cd",
+                    "enabled": true
+                }
+            },
+            "27b049c6-28f6-4c2c-96da-2ff869d15938",
+            "8ae5c22e-f636-589a-af59-1998cfbbffd5"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "23c9f1cf-8828-4b2c-856e-c7ee11e78eec",
+                "name": {
+                    "Danish": "Radiator, St\u00e5lplade",
+                    "English": "Radiator, St\u00e5lplade"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a20cb21b-d36c-4b52-9d61-b45dcd5cfe29",
+                    "enabled": true
+                }
+            },
+            "23c9f1cf-8828-4b2c-856e-c7ee11e78eec",
+            "59daa35c-8e2a-5b4c-9ecc-1daa4b95317b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3d6624b8-1718-40bb-b1ce-4751a16447c7",
+                    "enabled": true
+                }
+            },
+            "23c9f1cf-8828-4b2c-856e-c7ee11e78eec",
+            "059e7e19-d8af-5d15-8a8d-ff964e9e4ae2"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "020ea13a-f145-4ee2-a84f-3019e4b58b2d",
+                    "enabled": true
+                }
+            },
+            "23c9f1cf-8828-4b2c-856e-c7ee11e78eec",
+            "2b1a0442-7f76-5d65-92a1-8cc02c8aaaa9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "8ea8aeee-8571-407c-aeea-c7d3b787ee24",
+                "name": {
+                    "Danish": "Brugsvandsr\u00f8r, rustfast St\u00e5l",
+                    "English": "Brugsvandsr\u00f8r, rustfast St\u00e5l"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ffbb2ed1-5d08-4697-8896-f7421c03026c",
+                    "enabled": true
+                }
+            },
+            "8ea8aeee-8571-407c-aeea-c7d3b787ee24",
+            "8e7bd60d-f086-50b9-a150-5a563328e686"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "5adaf35f-581c-45e6-b08e-6a92be8a5814",
+                "name": {
+                    "Danish": "EPS isolering (gr\u0102\u0104) med termisk str\u0102\u0104lings absorber",
+                    "English": "EPS isolering (gr\u0102\u0104) med termisk str\u0102\u0104lings absorber"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1713f207-96ac-4cff-a1c9-1c8be071cd34",
+                    "enabled": true
+                }
+            },
+            "5adaf35f-581c-45e6-b08e-6a92be8a5814",
+            "5cb68a34-e3bf-509c-a2d5-91d193347b96"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fc7f7086-fe05-4906-9d6d-ae23185aa991",
+                    "enabled": true
+                }
+            },
+            "5adaf35f-581c-45e6-b08e-6a92be8a5814",
+            "6e1ac012-ce85-5b09-a4e5-250f70eb71bd"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "67f954c8-48c0-4458-b635-904912df9c5d",
+                    "enabled": true
+                }
+            },
+            "5adaf35f-581c-45e6-b08e-6a92be8a5814",
+            "304e46e8-d9af-587f-a07c-19ce2085de3d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "a6364fd9-8bbd-4927-a55f-aff66595bcba",
+                "name": {
+                    "Danish": "Brugsvandsr\u00f8r, rustfast St\u00e5l",
+                    "English": "Brugsvandsr\u00f8r, rustfast St\u00e5l"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3fad392f-19bf-4b4f-a480-046625f7a5c7",
+                    "enabled": true
+                }
+            },
+            "a6364fd9-8bbd-4927-a55f-aff66595bcba",
+            "8e7bd60d-f086-50b9-a150-5a563328e686"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "2375c170-2445-4918-bc12-8848408ea9d5",
+                "name": {
+                    "Danish": "Elevator (grundkomponenter pr. stk.)",
+                    "English": "Elevator (grundkomponenter pr. stk.)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "db2c0136-eb31-4148-9854-fadb2e1ed93e",
+                    "enabled": true
+                }
+            },
+            "2375c170-2445-4918-bc12-8848408ea9d5",
+            "1bab41c9-66f1-57d2-b6ca-9c31d8f7f064"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c876fe4d-a0f0-47e2-a046-11e1e2ec694a",
+                    "enabled": true
+                }
+            },
+            "2375c170-2445-4918-bc12-8848408ea9d5",
+            "98fbb919-63af-524f-9e7b-96f5aa48203b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "927be0f7-701f-44ab-9f15-2ccdaaa3f237",
+                    "enabled": true
+                }
+            },
+            "2375c170-2445-4918-bc12-8848408ea9d5",
+            "faead9f5-8d98-5227-ad18-68c9cc7a7428"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7482c5ea-66eb-4b24-8ba7-1569dae0cce0",
+                    "enabled": true
+                }
+            },
+            "2375c170-2445-4918-bc12-8848408ea9d5",
+            "3f2aee82-93b0-59fa-9819-ec1d079fa307"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "74f0af29-4837-4fda-a40f-92d367aa59db",
+                "name": {
+                    "Danish": "Elevator (komponenter pr. etage)",
+                    "English": "Elevator (komponenter pr. etage)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ddf7a6a5-2981-4cde-a8fd-01ce933a2ef9",
+                    "enabled": true
+                }
+            },
+            "74f0af29-4837-4fda-a40f-92d367aa59db",
+            "8ebed606-a995-567b-88f0-ab5fe0c02143"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7882bbd0-7c78-41d1-8167-cc6be10aeacf",
+                    "enabled": true
+                }
+            },
+            "74f0af29-4837-4fda-a40f-92d367aa59db",
+            "fd6baa8f-3e51-5b3b-88f0-9a4695208b54"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5d9b715d-a6e8-456e-80f4-b2ffb97cf46d",
+                    "enabled": true
+                }
+            },
+            "74f0af29-4837-4fda-a40f-92d367aa59db",
+            "f780aa31-89a6-5c74-a0fc-4b9e4c2e2413"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "c775f0b7-be49-4d7f-a633-a1ca33a45af6",
+                "name": {
+                    "Danish": "Elkabel, 3-leder, PVC, 45 kg kobber",
+                    "English": "Elkabel, 3-leder, PVC, 45 kg kobber"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3f8bfab7-08bb-432f-9ba0-e19955853b67",
+                    "enabled": true
+                }
+            },
+            "c775f0b7-be49-4d7f-a633-a1ca33a45af6",
+            "d18489ba-51e6-5ff0-a4ec-8f6a26129209"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "135fa1ab-0394-4012-af00-c45b130b1876",
+                    "enabled": true
+                }
+            },
+            "c775f0b7-be49-4d7f-a633-a1ca33a45af6",
+            "6876d582-f526-5c63-b90a-25bff30cff9d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e1748b98-a478-4420-86b1-199fb95ce2d0",
+                    "enabled": true
+                }
+            },
+            "c775f0b7-be49-4d7f-a633-a1ca33a45af6",
+            "af11e4da-194e-5e3f-8046-e5d04a066d98"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "7eed121d-6ec7-43c7-a0fb-40400d502226",
+                "name": {
+                    "Danish": "Stikd\u00e5se",
+                    "English": "Stikd\u00e5se"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "19644681-8565-469f-a0a6-69719804225e",
+                    "enabled": true
+                }
+            },
+            "7eed121d-6ec7-43c7-a0fb-40400d502226",
+            "d05f1cca-0242-5a49-8034-ac12a0902755"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1ee36712-8f03-48e2-a167-6cb6fd71dc9a",
+                    "enabled": true
+                }
+            },
+            "7eed121d-6ec7-43c7-a0fb-40400d502226",
+            "f079ba1f-edd3-523b-b5e2-96b5a02572fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3c816968-15e1-45aa-ae31-7a2db10cba25",
+                    "enabled": true
+                }
+            },
+            "7eed121d-6ec7-43c7-a0fb-40400d502226",
+            "8d2d0ff1-fac0-592f-9a54-0c65971a98aa"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "ba055218-e140-409b-8eae-8d43df268512",
+                "name": {
+                    "Danish": "LED kontorbelysning",
+                    "English": "LED kontorbelysning"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "4d1c1224-5e27-41d2-9b7e-ffa371d84c83",
+                    "enabled": true
+                }
+            },
+            "ba055218-e140-409b-8eae-8d43df268512",
+            "657da311-39bd-5dcc-ba3b-5cfb43391431"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ca2741fa-6b64-4ee5-b735-0997c20ecc14",
+                    "enabled": true
+                }
+            },
+            "ba055218-e140-409b-8eae-8d43df268512",
+            "8020022d-8f13-5e84-946c-a2ac16a3fac4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ca34408e-1300-43a2-a11b-974064f0684f",
+                    "enabled": true
+                }
+            },
+            "ba055218-e140-409b-8eae-8d43df268512",
+            "07bc61cf-9de0-54aa-a13e-673864582d82"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "f5ca0a9b-0223-43dd-a8f8-e6c2e54adf53",
+                "name": {
+                    "Danish": "Vippeafbryder (lyskontakt)",
+                    "English": "Vippeafbryder (lyskontakt)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "833b953e-5f31-4307-879f-6209e86b5341",
+                    "enabled": true
+                }
+            },
+            "f5ca0a9b-0223-43dd-a8f8-e6c2e54adf53",
+            "cadd7295-432c-503b-b03d-92e64fbe372e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "627a3912-495f-418c-a63e-43e29e15cceb",
+                    "enabled": true
+                }
+            },
+            "f5ca0a9b-0223-43dd-a8f8-e6c2e54adf53",
+            "12e02da9-f153-5d9b-a1d6-8e0b7e6a0e6f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1428eb12-d92f-4ef7-91c4-12d66e78f27e",
+                    "enabled": true
+                }
+            },
+            "f5ca0a9b-0223-43dd-a8f8-e6c2e54adf53",
+            "be55cdb9-9c33-55ff-beed-9305162ae689"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "79541e95-08ef-4ef5-a715-5de7f73c86a7",
+                "name": {
+                    "Danish": "Vippeafbryder (lyskontakt)",
+                    "English": "Vippeafbryder (lyskontakt)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d7c3c24c-bfa3-44fe-b51e-b1d1052546b7",
+                    "enabled": true
+                }
+            },
+            "79541e95-08ef-4ef5-a715-5de7f73c86a7",
+            "cadd7295-432c-503b-b03d-92e64fbe372e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2dbb4262-e8eb-4195-9b89-c87d6fb6784d",
+                    "enabled": true
+                }
+            },
+            "79541e95-08ef-4ef5-a715-5de7f73c86a7",
+            "12e02da9-f153-5d9b-a1d6-8e0b7e6a0e6f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "57933ad1-cee3-4048-adf7-4cbe08c05cf7",
+                    "enabled": true
+                }
+            },
+            "79541e95-08ef-4ef5-a715-5de7f73c86a7",
+            "be55cdb9-9c33-55ff-beed-9305162ae689"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "78853d8e-f983-41a2-bc51-e2fbd9b73f12",
+                "name": {
+                    "Danish": "Regnvandsr\u00f8r, St\u00f8beejern",
+                    "English": "Regnvandsr\u00f8r, St\u00f8beejern"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5e928e0a-5bb3-4185-ba92-d75e5733c423",
+                    "enabled": true
+                }
+            },
+            "78853d8e-f983-41a2-bc51-e2fbd9b73f12",
+            "30c39890-bc38-5685-a39f-8df61da1490f"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "6ab47d6b-8c6a-42fb-ae05-68ddeca7498f",
+                "name": {
+                    "Danish": "Bips - Beton Element ",
+                    "English": "Bips - Beton Element "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "9171c4a7-1642-4e31-9228-e25f64ba87ea",
+                    "enabled": true
+                }
+            },
+            "6ab47d6b-8c6a-42fb-ae05-68ddeca7498f",
+            "f47c0b01-cab2-5521-ad41-24ca177d9a22"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "574fd5c8-f168-4414-91e2-3747196dfe81",
+                    "enabled": true
+                }
+            },
+            "6ab47d6b-8c6a-42fb-ae05-68ddeca7498f",
+            "dd4def72-d33a-5871-a35f-f4f3f86904e8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "25bbe54a-81ee-4fb5-ad0b-12fed9c358f1",
+                    "enabled": true
+                }
+            },
+            "6ab47d6b-8c6a-42fb-ae05-68ddeca7498f",
+            "761b62c3-7889-5b48-8371-fd0bd5de7ad9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "56a43281-b3e7-459c-bdd6-fe5c949fa6f2",
+                "name": {
+                    "Danish": "Gips",
+                    "English": "Gips"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ff8dbdbc-4cbe-409c-81d1-bc97d80923d0",
+                    "enabled": true
+                }
+            },
+            "56a43281-b3e7-459c-bdd6-fe5c949fa6f2",
+            "a883710e-7e02-5ae5-85b2-19956549970a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "bee77ab5-b870-46a5-907f-e85aed627f41",
+                    "enabled": true
+                }
+            },
+            "56a43281-b3e7-459c-bdd6-fe5c949fa6f2",
+            "e73bd573-3a47-5fb3-b135-d1a43a34fa5d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "1cde6c1c-7b19-454d-93b2-c8b1225f58a9",
+                "name": {
+                    "Danish": "Maling Hvid Mat ",
+                    "English": "Maling Hvid Mat "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8aabb293-adff-460c-ac15-8e01f2d5fbed",
+                    "enabled": true
+                }
+            },
+            "1cde6c1c-7b19-454d-93b2-c8b1225f58a9",
+            "cd8d2b2b-f908-587a-b55d-1f844bdbb13e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "477a9c39-b825-4558-8896-55f76206b83d",
+                    "enabled": true
+                }
+            },
+            "1cde6c1c-7b19-454d-93b2-c8b1225f58a9",
+            "3473ed5f-92ae-58bf-a5e1-4f0b5a9e7f95"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2fc1011c-3acf-4789-9f14-7e518045d7f5",
+                    "enabled": true
+                }
+            },
+            "1cde6c1c-7b19-454d-93b2-c8b1225f58a9",
+            "8472870d-1ca6-5c9f-abd5-046cb013753a"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "8a468320-3e31-48c3-a912-3d5cc90771b4",
+                "name": {
+                    "Danish": "BA - (f2) - Beton-Insitu ",
+                    "English": "BA - (f2) - Beton-Insitu "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "916a2c96-44c5-48f8-ab64-67a1b8c3cd5f",
+                    "enabled": true
+                }
+            },
+            "8a468320-3e31-48c3-a912-3d5cc90771b4",
+            "9ffbe246-bbad-5cfe-86d8-448ac420fdcb"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "13c81ee9-c965-4306-a05e-226a0ad9a736",
+                    "enabled": true
+                }
+            },
+            "8a468320-3e31-48c3-a912-3d5cc90771b4",
+            "29daa4ab-d1cd-5268-a3ed-691ea2b537f2"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "57705d0a-17b6-4c3e-b62e-2eb1065e61e7",
+                    "enabled": true
+                }
+            },
+            "8a468320-3e31-48c3-a912-3d5cc90771b4",
+            "f94becda-57b5-5eea-8c76-eb8979a596e1"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "ba75e1e4-ca89-45de-ba48-1e74f32a34ae",
+                "name": {
+                    "Danish": "Bips - Gips ",
+                    "English": "Bips - Gips "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f8e4c3f4-39c0-46b0-96ba-51b7e6dc86d3",
+                    "enabled": true
+                }
+            },
+            "ba75e1e4-ca89-45de-ba48-1e74f32a34ae",
+            "a883710e-7e02-5ae5-85b2-19956549970a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "e6b58b59-abaa-48ef-be46-2f99eda26a7e",
+                    "enabled": true
+                }
+            },
+            "ba75e1e4-ca89-45de-ba48-1e74f32a34ae",
+            "e73bd573-3a47-5fb3-b135-d1a43a34fa5d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "20a22049-06d1-46bd-9069-1ce3564714c4",
+                "name": {
+                    "Danish": "BA - (f2) - Beton-Element ",
+                    "English": "BA - (f2) - Beton-Element "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "43c8a00a-8799-4fa8-893a-e0dc6a7ffed1",
+                    "enabled": true
+                }
+            },
+            "20a22049-06d1-46bd-9069-1ce3564714c4",
+            "9da4067b-9142-5838-a2c0-9985e21a46e4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1f438b08-2d78-4331-be37-c88dc230c14d",
+                    "enabled": true
+                }
+            },
+            "20a22049-06d1-46bd-9069-1ce3564714c4",
+            "7085296f-077c-5f4f-8265-b5cd6c91a5cc"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7bc97061-822f-4978-b287-3324ce4abe45",
+                    "enabled": true
+                }
+            },
+            "20a22049-06d1-46bd-9069-1ce3564714c4",
+            "37e9ee68-7608-5ae7-a1c1-2fc82824686f"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "28ea48d9-ae49-4351-9463-87601417f271",
+                "name": {
+                    "Danish": "Betong - Prefab ",
+                    "English": "Betong - Prefab "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f3970f81-553f-4242-83b2-4686c5177e7f",
+                    "enabled": true
+                }
+            },
+            "28ea48d9-ae49-4351-9463-87601417f271",
+            "9da4067b-9142-5838-a2c0-9985e21a46e4"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3ce69ba7-b636-40bb-8ed6-9ca722fbfbc5",
+                    "enabled": true
+                }
+            },
+            "28ea48d9-ae49-4351-9463-87601417f271",
+            "7085296f-077c-5f4f-8265-b5cd6c91a5cc"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6c8cf1fd-6560-44e1-aabd-9ea27f0634cf",
+                    "enabled": true
+                }
+            },
+            "28ea48d9-ae49-4351-9463-87601417f271",
+            "37e9ee68-7608-5ae7-a1c1-2fc82824686f"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e8f5aad5-882d-4cf5-8486-f291eb27cfa6",
+                "name": {
+                    "Danish": "Tr\u00e6gulv FP01 ",
+                    "English": "Tr\u00e6gulv FP01 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "bce4b2ca-5fdd-4944-bc0d-a2c84a425ea5",
+                    "enabled": true
+                }
+            },
+            "e8f5aad5-882d-4cf5-8486-f291eb27cfa6",
+            "46aab96c-60ee-5a48-b035-4a9d90d48dd8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5b9843a3-4f89-4594-aee2-78331e930da8",
+                    "enabled": true
+                }
+            },
+            "e8f5aad5-882d-4cf5-8486-f291eb27cfa6",
+            "27a6a332-68b9-57fc-b2fd-64846ed2c1e8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1080ad76-34ce-4657-951a-0663e588bcda",
+                    "enabled": true
+                }
+            },
+            "e8f5aad5-882d-4cf5-8486-f291eb27cfa6",
+            "70fbfac5-8f7d-5227-ba7b-9a2154d0c8ce"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "8b0333cb-296b-40d4-b317-66adfbfa14be",
+                "name": {
+                    "Danish": "Terrazzogulv ",
+                    "English": "Terrazzogulv "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f60f09bc-4149-4694-9dae-e45e64ae6c5e",
+                    "enabled": true
+                }
+            },
+            "8b0333cb-296b-40d4-b317-66adfbfa14be",
+            "35932b61-3c90-544c-a3c2-ea777a3f8255"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "536dfaf7-560c-42a8-9e10-fda28a63abac",
+                    "enabled": true
+                }
+            },
+            "8b0333cb-296b-40d4-b317-66adfbfa14be",
+            "73811ed5-804d-5751-a84d-40ae39efa3c8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1a45131e-ef3e-441b-ae3a-a5c9af72eaa7",
+                    "enabled": true
+                }
+            },
+            "8b0333cb-296b-40d4-b317-66adfbfa14be",
+            "4fc00e83-f075-5708-a044-70fd71ad830b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "7fb431e7-624a-4049-9089-8742844da2f2",
+                "name": {
+                    "Danish": "Gulvt\u00e6ppe FP06 ",
+                    "English": "Gulvt\u00e6ppe FP06 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a09544c3-95c9-4e88-849a-9788bb5be04e",
+                    "enabled": true
+                }
+            },
+            "7fb431e7-624a-4049-9089-8742844da2f2",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "21f1a870-425f-4e75-b01b-e37203c780cf",
+                    "enabled": true
+                }
+            },
+            "7fb431e7-624a-4049-9089-8742844da2f2",
+            "14e267b4-4acd-5c51-8244-9d1fd9b471fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "06a60d52-5a3b-461a-8530-c7dc8f59209d",
+                    "enabled": true
+                }
+            },
+            "7fb431e7-624a-4049-9089-8742844da2f2",
+            "cb8b85a9-7cd7-5c07-b851-390189fa2606"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "0ea3738f-600d-45be-bb2d-62a20dc51a4a",
+                "name": {
+                    "Danish": "Mosaikgulv ",
+                    "English": "Mosaikgulv "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "f5296f2c-7a6f-4ec1-bb14-fe0e845807ff",
+                    "enabled": true
+                }
+            },
+            "0ea3738f-600d-45be-bb2d-62a20dc51a4a",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "eaa0ab35-12e1-49df-aedf-cd2995d3854e",
+                    "enabled": true
+                }
+            },
+            "0ea3738f-600d-45be-bb2d-62a20dc51a4a",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6a6915d7-2e1b-4642-9d65-3c86245ddb26",
+                    "enabled": true
+                }
+            },
+            "0ea3738f-600d-45be-bb2d-62a20dc51a4a",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "45b5cc79-b927-4ee7-a326-02fdb9f871f9",
+                "name": {
+                    "Danish": "Mosaikgulv FP08 ",
+                    "English": "Mosaikgulv FP08 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "07980542-9c3f-4eb3-bda7-70a816597ddb",
+                    "enabled": true
+                }
+            },
+            "45b5cc79-b927-4ee7-a326-02fdb9f871f9",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d9e91d76-03bd-4737-8685-94416210d104",
+                    "enabled": true
+                }
+            },
+            "45b5cc79-b927-4ee7-a326-02fdb9f871f9",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b33e1d0c-a1c1-43a3-b4a8-b5cd8077d278",
+                    "enabled": true
+                }
+            },
+            "45b5cc79-b927-4ee7-a326-02fdb9f871f9",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "49362f90-149b-4ec2-9c54-6f74c4e046ef",
+                "name": {
+                    "Danish": "Tr\u00e6gulv FP09 ",
+                    "English": "Tr\u00e6gulv FP09 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d29325ba-0a41-49a9-9f1f-431d0c58b231",
+                    "enabled": true
+                }
+            },
+            "49362f90-149b-4ec2-9c54-6f74c4e046ef",
+            "46aab96c-60ee-5a48-b035-4a9d90d48dd8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "78ea512e-6c72-4ad6-a34c-2591bac3a084",
+                    "enabled": true
+                }
+            },
+            "49362f90-149b-4ec2-9c54-6f74c4e046ef",
+            "27a6a332-68b9-57fc-b2fd-64846ed2c1e8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "092a6d76-dcfa-4195-98c4-b4fdcf9f027a",
+                    "enabled": true
+                }
+            },
+            "49362f90-149b-4ec2-9c54-6f74c4e046ef",
+            "70fbfac5-8f7d-5227-ba7b-9a2154d0c8ce"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "d3ab9431-80fe-47dc-9978-b779b5d01517",
+                "name": {
+                    "Danish": "Gulvt\u00e6ppe FP10 ",
+                    "English": "Gulvt\u00e6ppe FP10 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2787c7f2-c315-4d4b-95ef-5687781d2d89",
+                    "enabled": true
+                }
+            },
+            "d3ab9431-80fe-47dc-9978-b779b5d01517",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "aabaad1a-5f79-44d9-9eff-a6a7e3eaec18",
+                    "enabled": true
+                }
+            },
+            "d3ab9431-80fe-47dc-9978-b779b5d01517",
+            "14e267b4-4acd-5c51-8244-9d1fd9b471fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d98b4af1-9e1a-4422-98f5-420f10c19b5a",
+                    "enabled": true
+                }
+            },
+            "d3ab9431-80fe-47dc-9978-b779b5d01517",
+            "cb8b85a9-7cd7-5c07-b851-390189fa2606"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "16e6d002-ab98-4c91-a915-4ce2fd0226d1",
+                "name": {
+                    "Danish": "Gulvt\u00e6ppe FP11",
+                    "English": "Gulvt\u00e6ppe FP11"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "6dcf2b48-b47f-44cb-8b15-480371de4e60",
+                    "enabled": true
+                }
+            },
+            "16e6d002-ab98-4c91-a915-4ce2fd0226d1",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7c7f2cf4-a1cf-4b7b-8e97-486bc4b9910f",
+                    "enabled": true
+                }
+            },
+            "16e6d002-ab98-4c91-a915-4ce2fd0226d1",
+            "14e267b4-4acd-5c51-8244-9d1fd9b471fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "9a2b7352-f944-4f08-b093-9840fd74edd1",
+                    "enabled": true
+                }
+            },
+            "16e6d002-ab98-4c91-a915-4ce2fd0226d1",
+            "cb8b85a9-7cd7-5c07-b851-390189fa2606"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "274fd34d-de30-47bc-bc32-a26728823a33",
+                "name": {
+                    "Danish": "Gulvt\u00e6ppe FP12",
+                    "English": "Gulvt\u00e6ppe FP12"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "cf084dce-7a94-479e-9013-6ac34b5c15a1",
+                    "enabled": true
+                }
+            },
+            "274fd34d-de30-47bc-bc32-a26728823a33",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1e4f0bce-0d43-4606-8aef-56a22761c06c",
+                    "enabled": true
+                }
+            },
+            "274fd34d-de30-47bc-bc32-a26728823a33",
+            "14e267b4-4acd-5c51-8244-9d1fd9b471fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ba3103bd-8e08-4de2-924d-5e201e7476b2",
+                    "enabled": true
+                }
+            },
+            "274fd34d-de30-47bc-bc32-a26728823a33",
+            "cb8b85a9-7cd7-5c07-b851-390189fa2606"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "e4762931-1b74-4f55-831e-59244d1429cb",
+                "name": {
+                    "Danish": "FP14 Stengulv ",
+                    "English": "FP14 Stengulv "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1d779b88-17c2-4fc4-b02f-29fc0b002c69",
+                    "enabled": true
+                }
+            },
+            "e4762931-1b74-4f55-831e-59244d1429cb",
+            "28b39d02-b467-5e12-942d-54628a134c28"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "eb2fd0cc-80cc-4c75-bb55-dcbeb0bcbddf",
+                    "enabled": true
+                }
+            },
+            "e4762931-1b74-4f55-831e-59244d1429cb",
+            "4ef32de6-5a3c-553b-b9e9-a01593fbb3ff"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "872ef9d8-4b10-4de5-88d1-fada5931dcb6",
+                    "enabled": true
+                }
+            },
+            "e4762931-1b74-4f55-831e-59244d1429cb",
+            "93c14a7b-fb9a-5550-ad1b-278c0dda98b0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "27b22294-0aeb-420b-9418-5a10c798d5cd",
+                "name": {
+                    "Danish": "Massagolv FP16 ",
+                    "English": "Massagolv FP16 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3d5aefa4-ab3e-4195-b041-0e6376eeeb43",
+                    "enabled": true
+                }
+            },
+            "27b22294-0aeb-420b-9418-5a10c798d5cd",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "30b5690f-ddc8-469a-8c33-f793f203a616",
+                    "enabled": true
+                }
+            },
+            "27b22294-0aeb-420b-9418-5a10c798d5cd",
+            "3e276891-919f-565d-b19e-9afd566f3334"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "62030c7b-ceea-4102-bea0-cf7705dde43a",
+                    "enabled": true
+                }
+            },
+            "27b22294-0aeb-420b-9418-5a10c798d5cd",
+            "a2d10a2f-bcbf-5c73-bad9-fab4aea95894"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "399403f2-78ae-40f4-af46-6b085e538a1e",
+                "name": {
+                    "Danish": "Gulvt\u00e6ppe FP17 ",
+                    "English": "Gulvt\u00e6ppe FP17 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "c63d89d4-6ebc-4a24-9f9c-879fe96d4d93",
+                    "enabled": true
+                }
+            },
+            "399403f2-78ae-40f4-af46-6b085e538a1e",
+            "b4ac570d-2a5a-50b3-ad9a-13f14f19af0b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d8689178-67b0-4093-93f9-78cf943661f0",
+                    "enabled": true
+                }
+            },
+            "399403f2-78ae-40f4-af46-6b085e538a1e",
+            "14e267b4-4acd-5c51-8244-9d1fd9b471fe"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7d749779-df8e-4c3b-a9a0-e5cb6417151f",
+                    "enabled": true
+                }
+            },
+            "399403f2-78ae-40f4-af46-6b085e538a1e",
+            "cb8b85a9-7cd7-5c07-b851-390189fa2606"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "729483b5-a429-4e0f-90de-55429dff6ef9",
+                "name": {
+                    "Danish": "Mosaikgulv FP18 ",
+                    "English": "Mosaikgulv FP18 "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "75c22a76-8d4a-4bc2-9e6a-585fb31ee035",
+                    "enabled": true
+                }
+            },
+            "729483b5-a429-4e0f-90de-55429dff6ef9",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5c773a67-9834-416e-9427-ed2bf241292e",
+                    "enabled": true
+                }
+            },
+            "729483b5-a429-4e0f-90de-55429dff6ef9",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "aaa657a3-fb49-40e9-8c44-976ca6f35435",
+                    "enabled": true
+                }
+            },
+            "729483b5-a429-4e0f-90de-55429dff6ef9",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "21f3dae4-3b11-4adf-82a3-5b396b3ead88",
+                "name": {
+                    "Danish": "Fliser Bad gulv ",
+                    "English": "Fliser Bad gulv "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "906fc0f9-ca25-4741-9745-6a14c04c2bc5",
+                    "enabled": true
+                }
+            },
+            "21f3dae4-3b11-4adf-82a3-5b396b3ead88",
+            "6fb2ffe6-c757-5872-adb3-b6d084242133"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "15fa9bcb-52a2-4d75-bf36-8c26835d749b",
+                    "enabled": true
+                }
+            },
+            "21f3dae4-3b11-4adf-82a3-5b396b3ead88",
+            "8ffea896-f92b-5d0e-bc2c-89f78a83ab7e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ea2439e6-26fa-4dc7-b304-af6cb0364870",
+                    "enabled": true
+                }
+            },
+            "21f3dae4-3b11-4adf-82a3-5b396b3ead88",
+            "8210a379-b744-5e93-864d-4267d74be59b"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "b8afe642-ab4f-45f0-b205-ff4a7c3e7840",
+                "name": {
+                    "Danish": "BA - (n2) - Tagpap",
+                    "English": "BA - (n2) - Tagpap"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5b436bd9-7d14-4c40-9348-f9f8980f08ae",
+                    "enabled": true
+                }
+            },
+            "b8afe642-ab4f-45f0-b205-ff4a7c3e7840",
+            "004775b3-963e-5864-afeb-d0da97177da1"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d8b7b10b-6ade-4806-a519-33239882c893",
+                    "enabled": true
+                }
+            },
+            "b8afe642-ab4f-45f0-b205-ff4a7c3e7840",
+            "7bb42c52-4dd7-546e-bae6-8b9cbce2f41f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fe437851-13ee-44ba-828f-97bb49a28d8a",
+                    "enabled": true
+                }
+            },
+            "b8afe642-ab4f-45f0-b205-ff4a7c3e7840",
+            "fb3dd1bd-a864-5ce7-acf6-40c2c6fd44b9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "1647ea0e-3c83-411c-a492-d82d4ea55894",
+                "name": {
+                    "Danish": "Klinker ",
+                    "English": "Klinker "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "029c52da-8f5e-432a-bb37-aed808bc8dd2",
+                    "enabled": true
+                }
+            },
+            "1647ea0e-3c83-411c-a492-d82d4ea55894",
+            "744fdcce-408e-5c05-baf9-29902504ce75"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ed79d033-d4c5-4abb-8b6b-c23f4e2ba288",
+                    "enabled": true
+                }
+            },
+            "1647ea0e-3c83-411c-a492-d82d4ea55894",
+            "2f704233-9603-5329-8c52-5694d75b4fa8"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "70abe20e-4ea5-4a13-ba36-f00e6e6495b5",
+                    "enabled": true
+                }
+            },
+            "1647ea0e-3c83-411c-a492-d82d4ea55894",
+            "459854b7-74a7-5a69-9760-4d86152c461a"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "45a5cd65-1aba-4c0e-86cb-9164c137d933",
+                "name": {
+                    "Danish": "Tagfliser ",
+                    "English": "Tagfliser "
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "1efbe6cc-cc21-4e88-8bc9-165a029c37d8",
+                    "enabled": true
+                }
+            },
+            "45a5cd65-1aba-4c0e-86cb-9164c137d933",
+            "10f23e49-f352-5cd3-a1ac-45cc4c7c8554"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "4250a0b1-e0b8-454e-8c49-2ac378d6996d",
+                    "enabled": true
+                }
+            },
+            "45a5cd65-1aba-4c0e-86cb-9164c137d933",
+            "ef2e5a00-8084-5a5d-89c8-6eec492c3e0e"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "fd6b742b-90b7-4c7c-9a64-082df4ccb970",
+                    "enabled": true
+                }
+            },
+            "45a5cd65-1aba-4c0e-86cb-9164c137d933",
+            "681aac9b-1723-5a82-87be-ac7d72310d80"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "24404a3c-56ce-4117-80b9-51c6e4006937",
+                "name": {
+                    "Danish": "Roofing",
+                    "English": "Roofing"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3937e30e-6003-46bd-bf45-f9f3697f1ec9",
+                    "enabled": true
+                }
+            },
+            "24404a3c-56ce-4117-80b9-51c6e4006937",
+            "004775b3-963e-5864-afeb-d0da97177da1"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "25a3a15a-341e-42b6-8f41-a68b66fadc85",
+                    "enabled": true
+                }
+            },
+            "24404a3c-56ce-4117-80b9-51c6e4006937",
+            "7bb42c52-4dd7-546e-bae6-8b9cbce2f41f"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a9aaa761-03d4-4c36-ad22-299cc4b984b1",
+                    "enabled": true
+                }
+            },
+            "24404a3c-56ce-4117-80b9-51c6e4006937",
+            "fb3dd1bd-a864-5ce7-acf6-40c2c6fd44b9"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "424e31c0-f0a3-4f4d-a446-ca3b5ace4cac",
+                "name": {
+                    "Danish": "BA - (x) - Luft",
+                    "English": "BA - (x) - Luft"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2622cc80-9767-453e-acb6-50d4e0ff1363",
+                    "enabled": true
+                }
+            },
+            "424e31c0-f0a3-4f4d-a446-ca3b5ace4cac",
+            "ce088088-b40b-5e27-b7a8-f84417c088cd"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "efc3b3da-f156-4682-92c3-98fb6aa1662e",
+                "name": {
+                    "Danish": "BA - (f7) - Gips(v\u00e6g)",
+                    "English": "BA - (f7) - Gips(v\u00e6g)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "837496d4-147f-4ae6-8463-cb37b6ef9df1",
+                    "enabled": true
+                }
+            },
+            "efc3b3da-f156-4682-92c3-98fb6aa1662e",
+            "a883710e-7e02-5ae5-85b2-19956549970a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "cdee6495-4684-40f1-a965-23ae07143342",
+                    "enabled": true
+                }
+            },
+            "efc3b3da-f156-4682-92c3-98fb6aa1662e",
+            "e73bd573-3a47-5fb3-b135-d1a43a34fa5d"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "9c9cc50d-e76a-45cf-bfd2-d9eabc26ed55",
+                "name": {
+                    "Danish": "Bips - Tr\u00e6",
+                    "English": "Bips - Tr\u00e6"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "5aabf084-6e1c-4ae6-b51e-398396d82b20",
+                    "enabled": true
+                }
+            },
+            "9c9cc50d-e76a-45cf-bfd2-d9eabc26ed55",
+            "afcd2474-4fd0-5bef-b410-21296f04375b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "7a16cfa6-c789-405d-9307-a6287f461d7b",
+                    "enabled": true
+                }
+            },
+            "9c9cc50d-e76a-45cf-bfd2-d9eabc26ed55",
+            "0717e52f-3086-5df5-a7f4-d44b9247e9f7"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "29a1279f-073a-4842-9379-34c940001516",
+                    "enabled": true
+                }
+            },
+            "9c9cc50d-e76a-45cf-bfd2-d9eabc26ed55",
+            "6efe665f-e83a-5213-af6a-6ad1643af041"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "d01ac82c-1522-4ed8-a1ab-299678bdf54c",
+                "name": {
+                    "Danish": "Skiffer",
+                    "English": "Skiffer"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "708e2f8d-2cb5-418c-9bed-4ed3392488b1",
+                    "enabled": true
+                }
+            },
+            "d01ac82c-1522-4ed8-a1ab-299678bdf54c",
+            "28b39d02-b467-5e12-942d-54628a134c28"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "ab9ed119-7674-4a8c-9382-cfdf7b108b5d",
+                    "enabled": true
+                }
+            },
+            "d01ac82c-1522-4ed8-a1ab-299678bdf54c",
+            "4ef32de6-5a3c-553b-b9e9-a01593fbb3ff"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "d7a21b32-cf93-44ae-9c13-c98f8b4e7f51",
+                    "enabled": true
+                }
+            },
+            "d01ac82c-1522-4ed8-a1ab-299678bdf54c",
+            "93c14a7b-fb9a-5550-ad1b-278c0dda98b0"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "262aab2f-7772-4c6d-8cdc-6e7466f92e8d",
+                "name": {
+                    "Danish": "Fiberdug, PE / PP (A1-A3)",
+                    "English": "Fiberdug, PE / PP (A1-A3)"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "a946a5b3-256b-425c-88d0-8a0181410cb5",
+                    "enabled": true
+                }
+            },
+            "262aab2f-7772-4c6d-8cdc-6e7466f92e8d",
+            "2daf3198-94f4-5b0d-a9b0-9e58be52c969"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "20c60198-63b4-489f-91f1-5fc3c2cd848b",
+                    "enabled": true
+                }
+            },
+            "262aab2f-7772-4c6d-8cdc-6e7466f92e8d",
+            "8077dfb9-16f2-5d19-8b3f-b4c485854230"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "83118ee7-aafe-48e1-8265-ac19cbd3626f",
+                    "enabled": true
+                }
+            },
+            "262aab2f-7772-4c6d-8cdc-6e7466f92e8d",
+            "e8666f81-1da2-5748-b31e-79eeecca27a8"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "bb75b1b8-afc5-476a-940a-be3afdbebf4c",
+                "name": {
+                    "Danish": "Window Frame ALU",
+                    "English": "Window Frame ALU"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "52dc9e5a-319b-4ddf-8b3a-48a90a484ee8",
+                    "enabled": true
+                }
+            },
+            "bb75b1b8-afc5-476a-940a-be3afdbebf4c",
+            "b06c6cc8-d4c3-5869-97e4-e8d6a4fb693d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "86455a1a-49e0-4135-92ea-edff3804a5fa",
+                    "enabled": true
+                }
+            },
+            "bb75b1b8-afc5-476a-940a-be3afdbebf4c",
+            "ef530819-9ee5-51dd-aa74-3f0f5586ed4b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "12b4f5ad-3cbc-4833-9bd3-9270f245e22e",
+                    "enabled": true
+                }
+            },
+            "bb75b1b8-afc5-476a-940a-be3afdbebf4c",
+            "318c359c-3668-5fae-8d06-55e2dcac8001"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "8d0f2365-23d7-4c0d-8f21-c375bfbcefa7",
+                "name": {
+                    "Danish": "Door Frame ALU",
+                    "English": "Door Frame ALU"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "00ce91c5-e2f1-4d5c-a441-9f9cfebd6a73",
+                    "enabled": true
+                }
+            },
+            "8d0f2365-23d7-4c0d-8f21-c375bfbcefa7",
+            "b06c6cc8-d4c3-5869-97e4-e8d6a4fb693d"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "4f74a376-26c7-4c4e-b91f-1ec81340db1d",
+                    "enabled": true
+                }
+            },
+            "8d0f2365-23d7-4c0d-8f21-c375bfbcefa7",
+            "ef530819-9ee5-51dd-aa74-3f0f5586ed4b"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3bcfdabf-43f9-4526-9244-112e4f199a71",
+                    "enabled": true
+                }
+            },
+            "8d0f2365-23d7-4c0d-8f21-c375bfbcefa7",
+            "318c359c-3668-5fae-8d06-55e2dcac8001"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "cf8e4eef-f95f-44d8-a951-9629c069ac8f",
+                "name": {
+                    "Danish": "EPDM",
+                    "English": "EPDM"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "b6b3ce32-4e63-4a85-9a5a-15077634ee30",
+                    "enabled": true
+                }
+            },
+            "cf8e4eef-f95f-44d8-a951-9629c069ac8f",
+            "5dbc15c2-ba1e-56c6-b6f9-d76de04d17cf"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "690b9dc0-119c-402a-a639-7bcb0d72d0cf",
+                    "enabled": true
+                }
+            },
+            "cf8e4eef-f95f-44d8-a951-9629c069ac8f",
+            "f3e39ac9-20a8-5cfe-86f1-36780cafaf94"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2fda2592-b2c9-4da9-aa21-06f75a1c882d",
+                    "enabled": true
+                }
+            },
+            "cf8e4eef-f95f-44d8-a951-9629c069ac8f",
+            "bcbf85eb-258d-5586-b29e-7055607899fc"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "8e7b9002-ae81-45d0-bb72-bb45f07f9472",
+                    "enabled": true
+                }
+            },
+            "cf8e4eef-f95f-44d8-a951-9629c069ac8f",
+            "f3e39ac9-20a8-5cfe-86f1-36780cafaf94"
+        ]
+    },
+    {
+        "Node": {
+            "Product": {
+                "id": "d73f11d7-2f3a-414d-8ee7-d83abf130d3c",
+                "name": {
+                    "Danish": "Steel Door",
+                    "English": "Steel Door"
+                },
+                "source": "User",
+                "comment": "Material created from Excel Import ",
+                "locked": true
+            }
+        }
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "38eccd9c-cfe0-4609-91ee-b7419edfcda8",
+                    "enabled": true
+                }
+            },
+            "d73f11d7-2f3a-414d-8ee7-d83abf130d3c",
+            "c8bc78d3-624d-5bd8-a28b-ca531665a52a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "0bd750b6-c56a-4b19-81e6-9b449466d49b",
+                    "enabled": true
+                }
+            },
+            "d73f11d7-2f3a-414d-8ee7-d83abf130d3c",
+            "2b2a6594-efda-5232-844a-07699530cf13"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "2a05e538-00c7-4635-a7d5-78b34d42c846",
+                    "enabled": true
+                }
+            },
+            "d73f11d7-2f3a-414d-8ee7-d83abf130d3c",
+            "d9d69aeb-99a0-5ef9-ab79-a37066221e3a"
+        ]
+    },
+    {
+        "Edge": [
+            {
+                "ProductToStage": {
+                    "id": "3a29aafe-6fd2-4ebe-b96d-359888c25943",
+                    "enabled": true
+                }
+            },
+            "d73f11d7-2f3a-414d-8ee7-d83abf130d3c",
+            "ecb09973-3a9c-59d6-833f-ceb11d8417ed"
+        ]
+    }
+]
