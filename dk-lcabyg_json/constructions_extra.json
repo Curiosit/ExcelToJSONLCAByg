@@ -3,70 +3,28 @@
         "Edge": [
             {
                 "CategoryToConstruction": {
-                    "id": "eba61723-7049-4963-a783-4f95086d5a9d",
+                    "id": "2e9edad3-e387-461e-ae71-d937ccaec519",
                     "layers": [
                         1
                     ]
                 }
             },
             "069983d0-d08b-405b-b816-d28ca9648956",
-            "78ea3f0c-787d-44a0-8e2a-76b94d3084af"
+            "bf11c146-3b67-4d11-bc5f-b03069512ed5"
         ]
     },
     {
         "Edge": [
             {
                 "CategoryToConstruction": {
-                    "id": "41da7794-b499-4788-80b2-282feb65b65b",
+                    "id": "c5191496-970f-4eca-b6e7-38861c045487",
                     "layers": [
                         1
                     ]
                 }
             },
             "069983d0-d08b-405b-b816-d28ca9648956",
-            "2bad6847-b164-46f7-86d2-f7babe6667d3"
-        ]
-    },
-    {
-        "Edge": [
-            {
-                "CategoryToConstruction": {
-                    "id": "f4398f3f-128d-4748-8928-782237ca6a6b",
-                    "layers": [
-                        1
-                    ]
-                }
-            },
-            "069983d0-d08b-405b-b816-d28ca9648956",
-            "909dfafb-70eb-47bf-9fc9-9fc35d416056"
-        ]
-    },
-    {
-        "Edge": [
-            {
-                "CategoryToConstruction": {
-                    "id": "7e33971c-f4d7-4a7e-8ce8-b9e63febdd30",
-                    "layers": [
-                        1
-                    ]
-                }
-            },
-            "069983d0-d08b-405b-b816-d28ca9648956",
-            "269d6926-8beb-48df-ba96-7c3ccf48246f"
-        ]
-    },
-    {
-        "Edge": [
-            {
-                "CategoryToConstruction": {
-                    "id": "28e29513-8f49-4a11-8f25-863c4264f054",
-                    "layers": [
-                        1
-                    ]
-                }
-            },
-            "069983d0-d08b-405b-b816-d28ca9648956",
-            "ac8ec475-c395-44c4-b39a-594296448064"
+            "3bae5a00-d6d6-4668-abbf-98fbf8386d3b"
         ]
     }
 ]
